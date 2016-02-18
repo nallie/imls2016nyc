@@ -1,0 +1,31 @@
+
+// RESPONSIVE ----------------------
+
+// use sparingly
+$phone-down = 'screen and (max-width: ' + $phone-width + ')'
+$tablet-down = 'screen and (max-width: ' + ($desktop-width - .062) + ')'
+
+// your main media queries
+$tablet-up = 'screen and (min-width: ' + $tablet-width + ')'
+$desktop-up = 'screen and (min-width: ' + $desktop-width + ')'
+$desktop-large-up = 'screen and (min-width: ' + $desktop-large-width + ')'
+
+
+// TYPOGRAPHY ----------------------
+
+// instructions: use as normal
+font-size()
+	if arguments == 0
+		font-size: 0
+	else if arguments == 'inherit'
+		font-size: arguments
+	else if unit(arguments) is '%'
+		font-size: arguments
+	else if unit(arguments) is 'px'
+		font-size: arguments
+		font-size: (remove-unit(arguments)*$rem) rem
+	else if unit(arguments) is 'rem'
+		font-size: (remove-unit(arguments)*$px) px
+		font-size: arguments
+	else
+		font-size: arguments

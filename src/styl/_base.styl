@@ -1,0 +1,36 @@
+// ----------------------------
+// BASE - elrements that don't have classes or IDs
+// ----------------------------
+img
+    max-width 100%
+    height auto
+	overflow hidden
+
+html
+	margin 0
+	padding 0
+	font-size 15px
+
+	// momentum scrolling for iOS
+	overflow-y scroll /* has to be scroll, not auto */
+	-webkit-overflow-scrolling touch
+
+	// proper font weight and smoothing rendering
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+	only screen and ( min-device-pixel-ratio: 1.25),
+	only screen and ( min-resolution: 200dpi),
+	only screen and ( min-resolution: 1.25dppx)
+		-webkit-font-smoothing subpixel-antialiased
+		-moz-osx-font-smoothing grayscale
+
+	@media $tablet-up
+		font-size $font-size-base
+
+	@media $desktop-up
+		font-size $font-size-base
+
+iframe
+	display block // remove whitespace under iframe

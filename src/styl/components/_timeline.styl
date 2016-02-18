@@ -1,0 +1,31 @@
+.cbp_tmtimeline
+	width 90%
+	margin 0 auto
+	@media $tablet-up
+		width 85%
+		margin-left 5%
+
+.cbp_tmtitle
+	color $color-2
+
+// Date and Time information
+.cbp_tmtimeline
+	> li
+		.cbp_tmtime
+			span
+				&:first-child
+					font-size 0.9em
+					color $color-4
+
+				&:last-child
+					font-size 1.5em
+					color $color-5
+					@media $desktop-up
+						font-size 2.5em
+
+		&:nth-child(odd)
+			.cbp_tmtime span:last-child
+				color $color-5
+
+			.cbp_tmlabel
+				background $color-1

@@ -1,0 +1,440 @@
+//  --------------------------------
+// Primary style
+// --------------------------------
+*, *::after, *::before
+	box-sizing border-box
+
+body
+	font-size 1.4rem
+	font-family $primary-font
+	color $color-2
+	background-color $color-2
+	font-smoothing antialiased
+	osx-font-smoothing grayscale
+
+a
+	color $color-3
+	text-decoration none
+
+.cd-image-replace
+	display inline-block
+	overflow hidden
+	text-indent 100%
+	white-space nowrap
+	color transparent
+
+.cd-scroll-down
+	position absolute
+	left 50%
+	right auto
+	transform translateX(-50%)
+	bottom 20px
+	width 44px
+	height 44px
+	background url('../../img/cd-arrow-bottom.svg') no-repeat center center
+
+
+//  --------------------------------
+// Navigation Trigger
+// --------------------------------
+.cd-nav-trigger
+	display block
+	position fixed
+	z-index 2
+	bottom 30px
+	right 5%
+	height 44px
+	width 44px
+	border-radius 0.25rem
+	background rgba(234, 242, 227, 0.9)
+	//reset button style
+	cursor pointer
+	appearance none
+	border none
+	outline none
+
+	@media $tablet-up
+		display none
+
+	//central dot
+	span
+		position absolute
+		height 4px
+		width 4px
+		background-color #3a2c41
+		border-radius 50%
+		left 50%
+		top 50%
+		bottom auto
+		right auto
+		transform translateX(-50%) translateY(-50%)
+		&::before
+			top -9px
+		&::after
+			bottom -9px
+
+//Bottom and top dots
+.cd-nav-trigger span::before
+.cd-nav-trigger span::after
+	content ''
+	position absolute
+	left 0
+	height 100%
+	width 100%
+	background-color $color-1
+	border-radius .25rem
+
+
+//  --------------------------------
+// Sections styles
+// --------------------------------
+.cd-section
+	display table
+	width 100%
+	height 100vh
+	// background $color-5
+
+	& > div
+		display table-cell
+		vertical-align middle
+		text-align center
+
+	&:nth-of-type(3n+2)
+		background-color $color-5
+
+	&:nth-of-type(3n+3)
+		background-color $color-4
+
+	&:nth-of-type(3n+4)
+		background-color $color-2
+
+		h1, h2
+			color $color-3
+
+.split__list
+	position relative
+	width 80%
+	margin 3rem auto 0
+	list-style-type disc
+	text-align left
+	line-height 1.6
+
+	li
+		color $color-1
+		margin 3rem 0
+
+		@media $tablet-up
+			width 40%
+			float left
+			margin 0 0 1.5rem 6%
+
+			&::after
+				clear  both
+				overflow auto
+//  --------------------------------
+// Vertical Nav styles
+// ---------------------------------
+//Mobile vertical nav links
+.cd-vertical-nav
+	position fixed
+	z-index 1
+	right 5%
+	bottom 30px
+	width 90%
+	max-width 400px
+	max-height 90%
+	overflow-y auto
+	transform scale(0)
+	transform-origin right bottom
+	transition transform 0.2s
+	border-radius 0.25em
+	background-color $color-2
+
+	a
+		display block
+		padding 1em
+		color $color-1
+		border-bottom 1px solid rgba(58, 44, 65, 0.1)
+
+	a.active
+		color $color-3
+
+	&.open
+		transform scale(1)
+		overflow-scrolling touch
+		background-color $color-6
+
+		@media $tablet-up
+			background-color none
+
+	&.open + .cd-nav-trigger
+		background-color transparent
+
+		span
+			background-color $color-2
+
+			// transform dots in 'X' icon
+			&::before
+			&::after
+				height 3px
+				width 20px
+				border-radius 0
+				left -8px
+
+			&::before
+				transform rotate(45deg)
+				top 1px
+
+			&::after
+				transform rotate(135deg)
+				bottom 0
+
+@media $tablet-up
+	.cd-vertical-nav
+		//reset style
+		right 0
+		top 0
+		bottom auto
+		height 100vh
+		width 90px
+		max-width none
+		max-height none
+		transform scale(1)
+		background-color transparent
+		//vertically align its content
+		display table
+
+		&::before
+			//Navigation Background
+			content ''
+			position absolute
+			top 0
+			left 0
+			width 100%
+			height 100%
+			background-color $drk-grey
+			transform translateX(100%)
+			transition transform 0.4s
+
+		// Vertical Nav text links
+		a
+			position relative
+			padding 3em .2rem 0
+			margin 1.4em auto
+			border-bottom none
+			font-size 1rem
+			font-weight 400
+			color $md-grey
+			&:hover
+				color $lt-grey
+
+		a.active
+			color $color-3
+
+		a::before
+		a::after
+			// used to create the filled circle and the background icon
+			content ''
+			position absolute
+			left 50%
+			// Force Hardware Acceleration
+			backface-visibility hidden
+			transform translateZ(0)
+
+		a::before
+			// Filled circle
+			top 0
+			height 32px
+			width 32px
+			border-radius 50%
+			background $lt-grey
+			transform translateX(-50%) scale(0.25)
+			background-color 0.2s
+			transition transform 0.4s
+
+		a::after
+			// ICONS
+			opacity 0
+			top 8px
+			height 16px
+			width 16px
+			// background url('../../img/cd-nav-icons.svg') no-repeat
+			transform translateX(-50%) scale(0)
+			transition transform 0.4s 0s, opacity 0.1s 0.3s
+
+		ul
+			// vertically align <ul> inside <nav>
+			display table-cell
+			vertical-align middle
+			text-align center
+
+		li
+			&:first-of-type
+				a
+					&::after
+						// change icon using image sprites
+						background-position 0px -48px
+						// fix bug with transitions - set scale(0.01) rather than scale(0)
+						transform translateX(-50%) translateY(9em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(9em) scale(0.25)
+
+			&:nth-of-type(2)
+				a
+					&::after
+						background-position 0px -32px
+						transform translateX(-50%) translateY(6em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(6em) scale(0.25)
+
+			&:nth-of-type(3)
+				a
+					&::after
+						background-position 0px -16px
+						transform translateX(-50%) translateY(3em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(3em) scale(0.25)
+
+			&:nth-of-type(4)
+				a
+					&::after
+						background-position 0px 0px
+						transform translateX(-50%) translateY(0) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(0) scale(0.25)
+
+			&:nth-of-type(5)
+				a
+					&::after
+						background-position 0px 16px
+						transform translateX(-50%) translateY(-3em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(-3em) scale(0.25)
+
+			&:nth-of-type(6)
+				a
+					&::after
+						background-position 0px 32px
+						transform translateX(-50%) translateY(-6em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(-6em) scale(0.25)
+
+			&:nth-of-type(7)
+				a
+					&::after
+						background-position 0px 32px
+						transform translateX(-50%) translateY(-9em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(-9em) scale(0.25)
+
+			&:nth-of-type(8)
+				a
+					&::after
+						background-position 0px 32px
+						transform translateX(-50%) translateY(-12em) scale(0.01)
+					&::before
+						transform translateX(-50%) translateY(-12em) scale(0.25)
+		.label
+			display block
+			// Force Hardware Acceleration
+			backface-visibility hidden
+			transform translateZ(0)
+			transform translateX(100%)
+			transition transform 0.4s
+
+
+		&.open + .cd-nav-trigger
+			background-color transparent
+
+			span
+				background-color $color-2
+
+				&::before
+				&::after
+					height 3px
+					width 20px
+					border-radius 0
+					left -8px
+
+				&::before
+					transform rotate(45deg)
+					top 1px
+
+				&::after
+					transform rotate(135deg)
+					bottom 0
+
+
+//  --------------------------------
+// NO TOUCH STYLES
+// --------------------------------
+@media $tablet-up
+	.no-touch .cd-vertical-nav:hover::before
+	.touch .cd-vertical-nav::before
+		transform translateX(0)
+
+	.cd-vertical-nav a::before
+	.cd-vertical-nav a::after
+		content ''
+		position absolute
+		left 50%
+		backface-visibility hidden
+		transform translateZ(0)
+
+	.cd-vertical-nav a.active::before
+	.no-touch .cd-vertical-nav a:hover::before
+		background-color $color-3
+
+	.no-touch .cd-vertical-nav:hover a::before
+	.no-touch .cd-vertical-nav:hover a::after
+	.touch .cd-vertical-nav li:nth-of-type(n) a::before
+	.touch .cd-vertical-nav li:nth-of-type(n) a::after
+		transform translateX(-50%) scale(1)
+		transform translateX(-50%) scale(1) rotate(0.02deg)
+
+	.no-touch .cd-vertical-nav:hover a::after
+	.touch .cd-vertical-nav a::after
+		opacity 1
+		transition transform 0.4s, opacity 0s
+
+	.no-touch .cd-vertical-nav:hover .label
+	.touch .cd-vertical-nav .label
+		transform translateX(0)
+
+
+//  --------------------------------
+// NO JS STYLES
+// ---------------------------------
+.no-js
+	.cd-nav-trigger
+		display none
+
+	.cd-vertical-nav
+		position static
+		height auto
+		width 100%
+		max-width none
+		background-color $color-5
+		border-radius 0
+		transform scale(1)
+
+		&::before
+			display none
+		ul
+			&::after
+				clear both
+				content ""
+				display table
+		li
+			display inline-block
+			float left
+		a
+			padding 0 1em
+			margin 1.5em 1em
+			color $color-2
+
+		.label
+			transform translateX(0)
+
+.no-js .cd-vertical-nav a::after, .no-js .cd-vertical-nav a::before
+	display none

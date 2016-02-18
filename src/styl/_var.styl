@@ -1,0 +1,36 @@
+// LAYOUT ----------------------
+$base-size = 16 // base size for font and element sizes
+$rem = 1/$base-size // FOR MIXIN USE ONLY, convert px to rem (E.g. 12*$rem rem)
+$px = $base-size // FOR MIXIN USE ONLY, convert rem to px (E.g. 12*$px rem)
+
+// image replacement text
+$ir =
+	font 0/0 serif
+	text-shadow none
+	color transparent
+
+base-font-size = ($base-size/16)*100% // variable for stylus-type-utils
+support-for-ie = true // Set to 'false' for no 'px' output with 'rem'
+
+
+// RESPONSIVE ----------------------
+// use EM for now because iOS 6.1 doesn't support REMs
+$phone-width = 767/$base-size em
+$tablet-width = 768/$base-size em
+$desktop-width = 992/$base-size em
+$desktop-large-width = 1200/$base-size em
+
+
+// TYPOGRAPHY ----------------------
+$font-size-base = ($base-size/16)*100%
+$font-family-sans = 'Helvetica', 'Arial', sans-serif
+$primary-font = 'Montserrat', sans-serif
+
+$font1-sans-regular = 'Avenir LT W01_35 Light1475496', sans-serif
+$font1-sans-bold = 'Avenir LT W01_45 Book1475508', sans-serif
+
+$font2-serif-regular = 'PT Serif', serif
+$font2-serif-bold =
+	font-family 'PT Serif', serif
+	font-style normal
+	font-weight 700
