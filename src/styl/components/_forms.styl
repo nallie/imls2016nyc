@@ -1,0 +1,138 @@
+// ---------------------------
+// Form starting stylings
+// ---------------------------
+#pardot-form
+	position relative
+	margin 0 auto
+	width 300px
+	// background red
+
+.group
+	position relative
+	margin-bottom 45px
+
+input
+	background transparent
+	font-size 18px
+	padding 10px 10px 10px 5px
+	display block
+	width 300px
+	border none
+	border-bottom 1px solid $color-1
+
+	&:focus
+		outline none
+
+label
+	color $drk-grey
+	font-size 18px
+	font-weight normal
+	position absolute
+	pointer-events none
+	left 5px
+	top 10px
+	transition 0.2s ease all
+
+input:focus ~ label
+input:valid ~ label
+		top -20px
+		font-size 14px
+		color $color-2
+
+
+// BARS ----------------------
+.bar
+	position relative
+	display block
+	width 300px
+	&:before
+		left 50%
+	&:after
+		right 50%
+
+.bar:before,
+.bar:after
+	content ''
+	height 2px
+	width 0
+	bottom 1px
+	position absolute
+	background $color-1
+	transition 0.2s ease all
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after
+	width 50%
+
+.highlight
+	position absolute
+	height 60%
+	width 100px
+	top 25%
+	left 0
+	pointer-events none
+	opacity 0.5
+
+input:focus ~ .highlight
+	animation inputHighlighter 0.3s ease
+
+@keyframes inputHighlighter {
+	from {
+		background: $color-5
+	}
+	to {
+		width: 0
+		background: transparent
+	}
+}
+
+
+// ---------------------------
+// SELECT stylings
+// ---------------------------
+.ro-select-wrapper
+	display inline-block
+	position relative
+	min-width 300px
+	z-index 5
+
+.ro-select-text
+	border none
+	border-bottom 1px solid $color-1
+	display block
+	max-height 48px
+	padding 16px 24px 25px 0
+	cursor pointer
+	color $color-2
+	&.ro-select-text-empty
+		color $color-1
+
+.ro-select-caret
+	position absolute
+	right 8px
+	top 10px
+	color $color-1
+
+.ro-select-list
+	user-select none
+	position absolute
+	transition 0.25s ease
+	top 0
+	left 0
+	width 100%
+	display none
+	list-style none
+	margin 0
+	padding 8px 0
+	color $md-grey
+	background-color $color-2
+	box-shadow 0 3px 10px #adadad
+
+	> .ro-select-item
+		padding 0 16px
+		line-height 48px
+		cursor pointer
+		&:hover
+			background-color $color-3
+		&.ro-select-item-active
+			background $color-3

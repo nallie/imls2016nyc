@@ -28,7 +28,6 @@ module.exports = function(grunt) {
 			dev: ['src/css/_main-styl.css'],
 			build: [
 				'dist/css/*.css',
-				'dist/css/bless/*.css',
 				'dist/js/*.js',
 				'dist/js/vendor/*.js'
 			]

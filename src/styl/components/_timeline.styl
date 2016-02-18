@@ -29,3 +29,9 @@
 
 			.cbp_tmlabel
 				background $color-1
+
+			.cbp_tmlabel:after
+				border-bottom-color $color-1
+				@media $tablet-up
+					border-bottom-color transparent
+					border-right-color $color-1
