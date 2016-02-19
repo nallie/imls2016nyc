@@ -1,5 +1,23 @@
 // BUTTON STYLES ------------------------
 
+.btn
+	display inline-block
+	text-align center
+	vertical-align middle
+	touch-action manipulation
+	cursor pointer
+	white-space no-wrap
+	line-height 1.4
+	border-radius 0
+	font-size 1rem
+	padding .375rem .9375rem
+	text-transform uppercase
+	text-decoration none
+	letter-spacing 1px
+	position relative
+	transition all .3s
+	height 38px
+
 .btn-link:focus
 	outline 0 !important
 
@@ -40,15 +58,15 @@
 		color $secondaryBtnColor
 
 .btn--support
-	border 2px solid $supportBtnColor
-	color $supportBtnColor
-	background-color white
+	border 2px solid $color-1
+	color $color-1
+	background-color $color-4
 
 	&:hover
 	&:active
 	&:focus
-		background-color $supportBtnColor
-		color white
+		background-color $color-1
+		color $color-4
 
 .btn--inactive
 	border 2px solid $inactiveBtnColor

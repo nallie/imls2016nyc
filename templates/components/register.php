@@ -99,8 +99,8 @@
 			<!-- forces IE5-8 to correctly submit UTF8 content  -->
 			<input name="_utf8" type="hidden" value="&#9731;" />
 
-			<div class="submit">
-				<input type="submit" accesskey="s" value="Submit" />
+			<div class="submit b-margin-3">
+				<input type="button" class="btn btn--support" accesskey="s" value="Submit" />
 			</div>
 
 			<p>Click <strong><a href="mailto:jennifer.pino@riseinteractive.com?Subject=Request%20Invite%20Code" target="_blank">here</a> </strong>to request a complimentary invitation code.</p>

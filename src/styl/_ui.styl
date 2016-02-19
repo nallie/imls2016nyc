@@ -41,13 +41,13 @@ a
 .cd-nav-trigger
 	display block
 	position fixed
-	z-index 2
+	z-index 50
 	bottom 30px
 	right 5%
 	height 44px
 	width 44px
 	border-radius 0.25rem
-	background rgba(234, 242, 227, 0.9)
+	background white
 	//reset button style
 	cursor pointer
 	appearance none
@@ -62,7 +62,7 @@ a
 		position absolute
 		height 4px
 		width 4px
-		background-color #3a2c41
+		background-color $color-3
 		border-radius 50%
 		left 50%
 		top 50%
@@ -74,7 +74,7 @@ a
 		&::after
 			bottom -9px
 
-//Bottom and top dots
+//Bottom and top dots - also X
 .cd-nav-trigger span::before
 .cd-nav-trigger span::after
 	content ''
@@ -82,7 +82,7 @@ a
 	left 0
 	height 100%
 	width 100%
-	background-color $color-1
+	background-color $color-3
 	border-radius .25rem
 
 
@@ -138,7 +138,7 @@ a
 //Mobile vertical nav links
 .cd-vertical-nav
 	position fixed
-	z-index 1
+	z-index 6
 	right 5%
 	bottom 30px
 	width 90%
@@ -149,13 +149,16 @@ a
 	transform-origin right bottom
 	transition transform 0.2s
 	border-radius 0.25em
-	background-color $color-2
+	// Behind mobile expanded nav - helps contain text on close
+	background-color $lt-grey
 
 	a
 		display block
 		padding 1em
-		color $color-1
-		border-bottom 1px solid rgba(58, 44, 65, 0.1)
+		margin 0 auto
+		width 91%
+		color $lt-grey
+		border-bottom 1px solid $color-6
 
 	a.active
 		color $color-3
@@ -163,7 +166,7 @@ a
 	&.open
 		transform scale(1)
 		overflow-scrolling touch
-		background-color $color-6
+		background-color white
 
 		@media $tablet-up
 			background-color none
@@ -171,10 +174,10 @@ a
 	&.open + .cd-nav-trigger
 		background-color transparent
 
+		// x icon
 		span
-			background-color $color-2
+			// background-color $drk-grey
 
-			// transform dots in 'X' icon
 			&::before
 			&::after
 				height 3px
@@ -248,7 +251,7 @@ a
 			height 32px
 			width 32px
 			border-radius 50%
-			background $lt-grey
+			background white
 			transform translateX(-50%) scale(0.25)
 			background-color 0.2s
 			transition transform 0.4s
