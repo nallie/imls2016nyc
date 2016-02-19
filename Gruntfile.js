@@ -9,6 +9,8 @@ module.exports = function(grunt) {
 		// Boostrap JS -----------
 		'bower_components/jquery-validation/dist/jquery.validate.js',
 		'bower_components/jQuery.dotdotdot/src/js/jquery.dotdotdot.js',
+		'bower_components/masonry/dist/masonry.pkgd.js',
+		'bower_components/flexslider/jquery.flexslider.js',
 		'font-icons/liga.js',
 
 		'src/js/main.js'

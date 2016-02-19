@@ -4,7 +4,7 @@
 		<ul class='cbp_tmtimeline b-margin-5'>
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 8:00-9:00">
-					<span>3/30/16</span> <span>8:00</span>
+					<span>A.M.</span> <span>8:00</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -14,7 +14,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 9:00-9:15">
-					<span>3/30/16</span> <span>9:00</span>
+					<span>A.M.</span> <span>9:00</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -24,7 +24,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 9:15-10:15">
-					<span>3/30/16</span> <span>9:15</span>
+					<span>A.M.</span> <span>9:15</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -35,7 +35,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
-					<span>3/30/16</span> <span>10:15</span>
+					<span>A.M.</span> <span>10:15</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -45,7 +45,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:30-11:00">
-					<span>3/30/16</span> <span>10:30</span>
+					<span>A.M.</span> <span>10:30</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -56,7 +56,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 11:00-11:30">
-					<span>3/30/16</span> <span>11:00</span>
+					<span>A.M.</span> <span>11:00</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -66,7 +66,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 11:30-12:15">
-					<span>3/30/16</span> <span>11:30</span>
+					<span>A.M.</span> <span>11:30</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -77,7 +77,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 12:15-1:15">
-					<span>3/30/16</span> <span>12:15</span>
+					<span> A.M. </span> <span>12:15</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">
@@ -87,7 +87,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 1:15-2:30">
-					<span>3/30/16</span> <span>1:15</span>
+					<span>A.M.</span> <span>1:15</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-phone"></div>
 				<div class="cbp_tmlabel">

@@ -7,21 +7,6 @@ jQuery(document).ready(function($){
 		navTrigger = $('.cd-nav-trigger'),
 		scrollArrow = $('.cd-scroll-down');
 
-	// function updateSections() {
-	// 	var halfWindowHeight = $(window).height()/2,
-	// 		scrollTop = $(window).scrollTop();
-	//
-	// 	contentSections.each(function(){
-	// 		var section = $(this),
-	// 			sectionId = section.attr('id'),
-	// 			navigationItem = navigationItems.filter('[href^="#'+ sectionId +'"]');
-	//
-	// 		( (section.offset().top - halfWindowHeight < scrollTop ) && ( section.offset().top + section.height() - halfWindowHeight > scrollTop) ) ? navigationItem.addClass('active') : navigationItem.removeClass('active');
-	// 	});
-	// 	scrolling = false;
-	// }
-
-	// REWRITE OF FUNCTION
 	function updateSections() {
 		var halfWindowHeight = $(window).height()/2,
 			scrollTop = $(window).scrollTop();
@@ -40,15 +25,6 @@ jQuery(document).ready(function($){
 		scrolling = false;
 	}
 
-
-	// function checkScroll() {
-	// 	if( !scrolling ) {
-	// 		scrolling = true;
-	// 		(!window.requestAnimationFrame ? setTimeout(updateSections, 300) : window.requestAnimationFrame(updateSections);
-	// 	}
-	// }
-
-	// REWRITE OF FUNCTION
 	function checkScroll() {
 		if ( !scrolling ) {
 			scrolling = true;
@@ -132,6 +108,50 @@ jQuery(document).ready(function($){
 		$this.after($wr.append($inp, $sel));
 		$this.remove();
 	});
+
+
+
+	//  --------------------------------
+	// TESTIMONALS Forms
+	// ---------------------------------
+	//create the slider
+	$('.cd-testimonials-wrapper').flexslider({
+		selector: ".cd-testimonials > li",
+		animation: "slide",
+		controlNav: false,
+		slideshow: false,
+		smoothHeight: true,
+		start: function(){
+			$('.cd-testimonials').children('li').css({
+				'opacity': 1,
+				'position': 'relative'
+			});
+		}
+	});
+
+	//open the testimonials modal page
+	$('.cd-see-all').on('click', function(){
+		$('.cd-testimonials-all').addClass('is-visible');
+	});
+
+	//close the testimonials modal page
+	$('.cd-testimonials-all .close-btn').on('click', function(){
+		$('.cd-testimonials-all').removeClass('is-visible');
+	});
+	$(document).keyup(function(event){
+		//check if user has pressed 'Esc'
+		if(event.which=='27'){
+			$('.cd-testimonials-all').removeClass('is-visible');
+		}
+	});
+
+	//build the grid for the testimonials modal page
+	$('.cd-testimonials-all-wrapper').children('ul').masonry({
+		itemSelector: '.cd-testimonials-item'
+	});
+
+
+
 	//  --------------------------------
 	// Google Maps
 	// ---------------------------------
@@ -143,7 +163,6 @@ jQuery(document).ready(function($){
 	//       zoom: 8
 	//     });
 	//   }
-
 
 	function initialize() {
 
@@ -183,6 +202,7 @@ jQuery(document).ready(function($){
 
 	google.maps.event.addDomListener(window, 'load', initialize);
 
+
 });
 
 //  --------------------------------
@@ -195,44 +215,44 @@ piCId = '2508';
 pi = !window.pi ? {} : window.pi ;
 
 if (!pi.tracker) {
-	pi.tracker = {};
+pi.tracker = {};
 }
 
 pi.tracker.pi_form = true;
 
 (function() {
-	function async_load() {
-		var s = document.createElement('script');
-		s.type = 'text/javascript';
-		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-		var c = document.getElementsByTagName('script')[0];
-		c.parentNode.insertBefore(s, c);
-	}
-	if (window.attachEvent) {
-		window.attachEvent('onload', async_load);
-	} else {
-		window.addEventListener('load', async_load, false);
-	}
+function async_load() {
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+	var c = document.getElementsByTagName('script')[0];
+	c.parentNode.insertBefore(s, c);
+}
+if (window.attachEvent) {
+	window.attachEvent('onload', async_load);
+} else {
+	window.addEventListener('load', async_load, false);
+}
 })();
 
 var anchors = document.getElementsByTagName("a");
 for (var i = 0; i < anchors.length; i++) {
-	var anchor = anchors[i];
-	if (anchor.getAttribute("href") && !anchor.getAttribute("target")) {
-		anchor.target = "_top";
-	}
+var anchor = anchors[i];
+if (anchor.getAttribute("href") && !anchor.getAttribute("target")) {
+	anchor.target = "_top";
+}
 }
 
-(function() {
-	pardot.$(document).ready(function() {
-		(function() {
-			var $ = window.pardot.$;
-			window.pardot.FormDependencyMap = [];
-
-			$('.form-field-master input, .form-field-master select').each(function(index, input) {
-				$(input).on('change', window.piAjax.checkForDependentField);
-				window.piAjax.checkForDependentField.call(input);
-			});
-		})();
-	});
-})();
+// (function() {
+// 	pardot.$(document).ready(function() {
+// 		(function() {
+// 			var $ = window.pardot.$;
+// 			window.pardot.FormDependencyMap = [];
+//
+// 			$('.form-field-master input, .form-field-master select').each(function(index, input) {
+// 				$(input).on('change', window.piAjax.checkForDependentField);
+// 				window.piAjax.checkForDependentField.call(input);
+// 			});
+// 		})();
+// 	});
+// })();
