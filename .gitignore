@@ -9,7 +9,8 @@ bower_components
 dist/
 .idea
 *.iml
-src/css
+src/css/main.*
+src/css/no-media-queries.css
 src/js/vendor
 src/js/scripts.concat.js
 src/manifest.json
