@@ -82,7 +82,7 @@
 				<ul>
 					<li class="cd-testimonials-item">
 						<p>
-							You can read a lot about this type of marketing, you can attend webinars, you can subscribe to newsletters but there is nothing like an intimate environment where you’re sharing information with other marketers.
+							"You can read a lot about this type of marketing, you can attend webinars, you can subscribe to newsletters but there is nothing like an intimate environment where you’re sharing information with other marketers."
 						</p>
 
 						<div class="cd-author">
@@ -96,7 +96,7 @@
 
 					<li class="cd-testimonials-item">
 						<p>
-							The event was phenomenal and what it really pointed out to me was that math, data, metrics, is absolutely the key to everything moving forward.
+							"The event was phenomenal and what it really pointed out to me was that math, data, metrics, is absolutely the key to everything moving forward."
 						</p>
 
 						<div class="cd-author">
@@ -110,7 +110,7 @@
 
 					<li class="cd-testimonials-item">
 						<p>
-							This event is much more interactive than other events. There is a lot of teamwork, a lot of team building, there’s a lot of presenting your own business plan and your own case studies, so it’s interesting to see how all these companies that are cross industry and cross segments really have a lot of similarities when it comes down to it, in terms of marketing mix.
+							"This event is much more interactive than other events. There is a lot of teamwork, a lot of team building, there’s a lot of presenting your own business plan and your own case studies, so it’s interesting to see how all these companies that are cross industry and cross segments really have a lot of similarities when it comes down to it, in terms of marketing mix."
 						</p>
 
 						<div class="cd-author">
@@ -124,7 +124,7 @@
 
 					<li class="cd-testimonials-item">
 						<p>
-							The interactive discussions at IMLS were very helpful. It was great to share ideas and best practices with industry leaders. I was able to take away some key concepts which will help drive new opportunities at my company.
+							"The interactive discussions at IMLS were very helpful. It was great to share ideas and best practices with industry leaders. I was able to take away some key concepts which will help drive new opportunities at my company."
 						</p>
 
 						<div class="cd-author">

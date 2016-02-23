@@ -60,13 +60,13 @@
 			font-size 22px
 			font-size 1.375rem
 
-@media $desktop-up
-	p
-		font-size 26px
-		font-size 1.625rem
-		line-height 1.6
+			@media $desktop-up
+				font-size 26px
+				font-size 1.625rem
+				line-height 1.6
 
-.cd-author img, .cd-author .cd-author-info
+.cd-author img
+.cd-author .cd-author-info
 	display inline-block
 	vertical-align middle
 
@@ -76,18 +76,22 @@
 		height 32px
 		border-radius 50%
 		margin-right 5px
-		box-shadow 0 0 6px rgba(0, 0, 0, 0.3)
+		box-shadow 0 0 8px rgba(0, 0, 0, 0.3)
+
 	.cd-author-info
 		text-align left
 		line-height 1.2
+
 		li
 			&:first-child
+				color $color-2
 				font-size 14px
 				font-size 0.875rem
 			&:last-child
 				font-size 12px
 				font-size 0.75rem
-				color #6b6b70
+				color $color-6
+
 
 @media $tablet-up
 	.cd-author
@@ -159,7 +163,7 @@
 	@media $desktop-up
 		a::before
 		a::after
-			background-color #5e5e63
+			background-color $color-2
 			transition background-color 0.2s
 
 		a:hover::before
@@ -177,7 +181,7 @@
 	background-color darken($color-3, 20%)
 	text-align center
 	text-transform uppercase
-	color #6b6b70
+	color $color-2
 	font-weight 700
 	font-size 12px
 	font-size 0.75rem
@@ -189,8 +193,8 @@
 	left 0
 	height 100%
 	width 100%
-	background-color #ffffff
-	z-index 2
+	background-color rgba($color-3, 0.85)
+	z-index 900
 	visibility hidden
 	opacity 0
 	transition opacity .3s 0s, visibility 0s .3s
@@ -217,7 +221,7 @@
 		transition transform .3s, opacity .3s
 	p
 		position relative
-		background #79b6e4
+		background $color-5
 		color #ffffff
 		padding 2em
 		line-height 1.4
@@ -231,7 +235,7 @@
 			height 0
 			width 0
 			border 8px solid transparent
-			border-top-color #79b6e4
+			border-top-color $color-5
 	.cd-author
 		text-align left
 		margin-left 1.5em
@@ -246,6 +250,7 @@
 		.cd-testimonials-item
 			opacity 1
 			transform translate3d(0, 0, 0) scale(1)
+
 
 @media $tablet-up
 	.cd-testimonials-all
@@ -267,7 +272,7 @@
 	width 40px
 	height 40px
 	top 10px
-	right 5%
+	left 2%
 	overflow hidden
 	text-indent 100%
 	white-space nowrap
@@ -285,4 +290,44 @@
 	height 24px
 	top 8px
 	left 19px
-	background-color #39393c
+	background-color $color-2
+
+
+// FOOTER CAROUSEL
+.custom-navigation
+	position relative
+	width 20%
+	margin 0 auto
+	a
+		color $color-2
+
+.flex-control-nav
+	width 100%
+	position absolute
+	text-align center
+	top 8px
+	right 0
+	left 0
+
+	li
+		margin 0 6px
+		display inline-block
+		zoom 1
+
+.flex-control-paging
+	li
+		a
+			width 8px
+			height 8px
+			display block
+			background transparent
+			cursor pointer
+			text-indent -9999px
+			border-radius 20px
+			border 2px solid $color-2
+
+			&:hover
+				background $color-2
+
+		.flex-active
+			background $color-2

@@ -107,6 +107,25 @@ jQuery(document).ready(function($){
 
 
 	//  --------------------------------
+	// Footer Carousel
+	// ---------------------------------
+
+	$('.flexslider').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    itemWidth: 210,
+	    itemMargin: 5,
+	    minItems: 2,
+	    maxItems: 4,
+		controlsContainer: $(".custom-controls-container"),
+    	customDirectionNav: $(".custom-navigation a")
+	});
+
+
+
+
+
+	//  --------------------------------
 	// Google Maps
 	// ---------------------------------
 

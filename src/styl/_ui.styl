@@ -25,13 +25,16 @@ a
 
 .cd-scroll-down
 	position absolute
+	color $color-2
 	left 50%
 	right auto
 	transform translateX(-50%)
 	bottom 20px
 	width 44px
 	height 44px
-	background url('../../img/cd-arrow-bottom.svg') no-repeat center center
+
+.content-wrapper
+	position relative
 
 .content-wrapper__padding
 	padding 5rem 0 3rem
@@ -338,9 +341,9 @@ a
 				a
 					&::after
 						background-position 0px 32px
-						transform translateX(-50%) translateY(-12em) scale(0.01)
+						transform translateX(-50%) translateY(-13em) scale(0.01)
 					&::before
-						transform translateX(-50%) translateY(-12em) scale(0.25)
+						transform translateX(-50%) translateY(-13em) scale(0.25)
 		.label
 			display block
 			// Force Hardware Acceleration
@@ -408,6 +411,8 @@ a
 	.touch .cd-vertical-nav .label
 		transform translateX(0)
 
+.footer__block
+	background darken($color-5, 20%)
 
 //  --------------------------------
 // NO JS STYLES

@@ -6,7 +6,8 @@
 				<div class="ch-item ch-img-erna">
 					<div class="ch-info">
 						<h3>Erna Alfred Liousas</h3>
-						<p>Analyst, Forrester Research, Inc <a href="https://www.linkedin.com/in/ernaalfredliousas" target="_blank">Linkedin</a></p>
+						<p>Analyst <a href="https://www.linkedin.com/in/ernaalfredliousas" target="_blank">Linkedin</a></p>
+						<span class="img__company">Forrester Research, Inc</span>
 					</div>
 				</div>
 			</li>
@@ -14,7 +15,8 @@
 				<div class="ch-item ch-img-brad">
 					<div class="ch-info">
 						<h3>Brad Messinger</h3>
-						<p>SVP, Marketing, Rise Interactive <a href="https://www.linkedin.com/in/brad-messinger-15281833" target="_blank">Linkedin</a></p>
+						<p>SVP, Marketing<a href="https://www.linkedin.com/in/brad-messinger-15281833" target="_blank">Linkedin</a></p>
+						<span class="img__company">Rise Interactive</span>
 					</div>
 				</div>
 			</li>
@@ -22,7 +24,17 @@
 				<div class="ch-item ch-img-lou">
 					<div class="ch-info">
 						<h3>Lou Amodeo</h3>
-						<p>Director of Customer Experience, Rise Interactive <a href="https://www.linkedin.com/in/lou-amodeo-966375a" target="_blank">Linkedin</a></p>
+						<p>Director of Customer Experience <a href="https://www.linkedin.com/in/lou-amodeo-966375a" target="_blank">Linkedin</a></p>
+						<span class="img__company">Rise Interactive</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-greg">
+					<div class="ch-info">
+						<h3>Greg Weinstein</h3>
+						<p>Vice President, Audience Development <a href="https://www.linkedin.com/in/gregweinstein1" target="_blank">Linkedin</a></p>
+						<span class="img__company">Univision</span>
 					</div>
 				</div>
 			</li>
