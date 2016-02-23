@@ -7,6 +7,10 @@
 	width 300px
 	// background red
 
+	a
+		color $color-2
+		text-decoration underline
+
 .group
 	position relative
 	margin-bottom 45px
@@ -90,49 +94,118 @@ input:focus ~ .highlight
 // ---------------------------
 // SELECT stylings
 // ---------------------------
-.ro-select-wrapper
-	display inline-block
-	position relative
-	min-width 300px
-	z-index 5
+// .select-wrapper
+// 	display inline-block
+// 	position relative
+// 	min-width 300px
+// 	z-index 5
+//
+// .select-text
+// 	border none
+// 	border-bottom 1px solid $color-1
+// 	display block
+// 	max-height 48px
+// 	padding 16px 24px 25px 0
+// 	cursor pointer
+// 	color $color-2
+// 	&.select-text-empty
+// 		color $color-1
+//
+// .select-caret
+// 	position absolute
+// 	right 8px
+// 	top 10px
+// 	color $color-1
+//
+// .select-list
+// 	user-select none
+// 	position absolute
+// 	transition 0.25s ease
+// 	top 0
+// 	left 0
+// 	width 100%
+// 	display none
+// 	list-style none
+// 	margin 0
+// 	padding 8px 0
+// 	color $md-grey
+// 	background-color $color-2
+// 	box-shadow 0 3px 10px #adadad
+//
+// 	> .select-item
+// 		padding 0 16px
+// 		line-height 48px
+// 		cursor pointer
+// 		&:hover
+// 			background-color $color-4
+// 		&.select-item-active
+// 			background $color-6
 
-.ro-select-text
-	border none
-	border-bottom 1px solid $color-1
-	display block
-	max-height 48px
-	padding 16px 24px 25px 0
-	cursor pointer
-	color $color-2
-	&.ro-select-text-empty
+/* ==========  Select Field Variables ========== */
+$color-black = #fff
+$select-background-color = transparent
+$select-border-color = unquote("rgba(#{$color-black}, 0.12)") !default
+$select-font-size = 16px
+$select-color = unquote("rgba(#{$color-black}, 0.26)") !default
+$select-padding = 4px
+
+/* ==========  Select Field ========== */
+
+/* Style Select Field */
+select
+  font-family inherit
+  background-color transparent
+  width 100%
+  padding $select-padding 0
+  font-size $select-font-size
+  color $select-color
+  border none
+  border-bottom 1px solid $select-border-color
+
+
+/* Remove focus */
+select:focus
+  outline none
+
+/* Hide label */
+.selectfield label
+	display none
+
+/* Use custom arrow */
+.selectfield select
+	appearance none
+	outline 0
+	background-color transparent
+	border-width 0 0 1px 0
+	border-color $color-1
+	border-radius 0
+	width 100%
+	min-height 40px
+
+	&::before
+		font-family 'Material-Icons'
+		content '\e5c5'
+		position absolute
+		right 8px
+		top 10px
 		color $color-1
 
-.ro-select-caret
-	position absolute
-	right 8px
-	top 10px
-	color $color-1
 
-.ro-select-list
-	user-select none
-	position absolute
-	transition 0.25s ease
-	top 0
-	left 0
-	width 100%
-	display none
-	list-style none
-	margin 0
-	padding 8px 0
-	color $md-grey
-	background-color $color-2
-	box-shadow 0 3px 10px #adadad
 
-	> .ro-select-item
-		padding 0 16px
-		line-height 48px
-		cursor pointer
-		&:hover
-			background-color $color-3
-		&.ro-select-item-active
-			background $color-3
+
+.selectfield
+	font-family Campton,'Verdana',sans-serif
+	position relative
+
+	&:after
+		position absolute
+		/* Styling the down arrow */
+		width 0
+		height 0
+		padding 0
+		font-family 'Material Icons'
+		content '\e5c5'
+		right 28px
+		top 10px
+		color $color-1
+		font-size 1.7rem

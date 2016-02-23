@@ -23,7 +23,7 @@
 						You can read a lot about this type of marketing, you can attend webinars, you can subscribe to newsletters but there is nothing like an intimate environment where you’re sharing information with other marketers.
 					</p>
 					<div class="cd-author">
-						<img src="img/lou-headshot.png" alt="Author image">
+						<img src="img/piera.jpg" alt="Author image">
 						<ul class="cd-author-info">
 							<li>Piera Palazzolo</li>
 							<li>SVP Marketing, Dale Carnegie Training</li>
@@ -36,7 +36,7 @@
 						The event was phenomenal and what it really pointed out to me was that math, data, metrics, is absolutely the key to everything moving forward.
 					</p>
 					<div class="cd-author">
-						<img src="img/lou-headshot.png" alt="Author image">
+						<img src="img/gw.jpg" alt="Author image">
 						<ul class="cd-author-info">
 							<li>Greg Weinstein</li>
 							<li>VP Audience Development, Univision</li>
@@ -49,7 +49,7 @@
 						This event is much more interactive than other events. There is a lot of teamwork, a lot of team building, there’s a lot of presenting your own business plan and your own case studies, so it’s interesting to see how all these companies that are cross industry and cross segments really have a lot of similarities when it comes down to it, in terms of marketing mix.
 					</p>
 					<div class="cd-author">
-						<img src="img/lou-headshot.png" alt="Author image">
+						<img src="img/alexandria.jpg" alt="Author image">
 						<ul class="cd-author-info">
 							<li>Alexandra Stried</li>
 							<li>Director of Product Management, Weight Watchers</li>
@@ -62,7 +62,7 @@
 						The interactive discussions at IMLS were very helpful. It was great to share ideas and best practices with industry leaders. I was able to take away some key concepts which will help drive new opportunities at my company.
 					</p>
 					<div class="cd-author">
-						<img src="img/lou-headshot.png" alt="Author image">
+						<img src="img/anthony.jpg" alt="Author image">
 						<ul class="cd-author-info">
 							<li>Anthony Kim</li>
 							<li>Director of Mobile Strategy, PetSmart</li>
@@ -86,7 +86,7 @@
 						</p>
 
 						<div class="cd-author">
-							<img src="img/lou-headshot.png" alt="Author image">
+							<img src="img/piera.jpg" alt="Author image">
 							<ul class="cd-author-info">
 								<li>Piera Palazzolo</li>
 								<li>SVP Marketing, Dale Carnegie Training</li>
@@ -100,7 +100,7 @@
 						</p>
 
 						<div class="cd-author">
-							<img src="img/lou-headshot.png" alt="Author image">
+							<img src="img/gw.jpg" alt="Author image">
 							<ul class="cd-author-info">
 								<li>Greg Weinstein</li>
 								<li>VP Audience Development, Univision</li>
@@ -114,9 +114,9 @@
 						</p>
 
 						<div class="cd-author">
-							<img src="img/lou-headshot.png" alt="Author image">
+							<img src="img/alexandria.jpg" alt="Author image">
 							<ul class="cd-author-info">
-								<li>Alexandra Stried</li>
+								<li>Alexandria Stried</li>
 								<li>Director of Product Management, Weight Watchers</li>
 							</ul>
 						</div> <!-- cd-author -->
@@ -128,7 +128,7 @@
 						</p>
 
 						<div class="cd-author">
-							<img src="img/lou-headshot.png" alt="Author image">
+							<img src="img/anthony.jpg" alt="Author image">
 							<ul class="cd-author-info">
 								<li>Anthony Kim</li>
 								<li>Director of Mobile Strategy, PetSmart</li>

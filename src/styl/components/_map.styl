@@ -2,3 +2,36 @@
 	height 100%
 	margin 0px
 	padding 0px
+
+#cd-zoom-in, #cd-zoom-out {
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	margin-left: 10px;
+	background-color: rgba($color-2, .9);
+	background-repeat: no-repeat;
+	background-size: 32px 64px;
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg');
+
+	.no-touch &:hover {
+		background-color: rgba($color-2, 1);
+	}
+
+	@include MQ(M) {
+		margin-left: 50px;
+	}
+}
+
+#cd-zoom-in {
+	background-position: 50% 0;
+	margin-top: 10px;
+	margin-bottom: 1px;
+
+	@include MQ(M) {
+		margin-top: 50px;
+	}
+}
+
+#cd-zoom-out {
+	background-position: 50% -32px;
+}

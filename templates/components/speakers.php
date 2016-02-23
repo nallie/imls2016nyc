@@ -13,7 +13,7 @@
 			<li>
 				<div class="ch-item ch-img-brad">
 					<div class="ch-info">
-						<h3>Brad Messigner</h3>
+						<h3>Brad Messinger</h3>
 						<p>SVP, Marketing, Rise Interactive <a href="https://www.linkedin.com/in/brad-messinger-15281833" target="_blank">Linkedin</a></p>
 					</div>
 				</div>

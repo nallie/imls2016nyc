@@ -12,7 +12,7 @@
 				<input type="text" name="108722_8315pi_108722_8315" id="108722_8315pi_108722_8315" value="" class="text" size="30" maxlength="40" onchange="" required />
 				<span class="highlight"></span>
 				<span class="bar"></span>
-				<label class="field-label" for="108722_8315pi_108722_8315">First Name</label>
+				<label for="108722_8315pi_108722_8315">First Name</label>
 			</div>
 
 
@@ -22,7 +22,7 @@
 				<span class="bar"></span>
 				<label for="108722_8317pi_108722_8317">Last Name</label>
 			</div>
-			<div id="error_for_108722_8317pi_108722_8317" style="display:none"></div>
+			<!-- <div id="error_for_108722_8317pi_108722_8317" style="display:none"></div> -->
 
 
 			<div class="group form-field company pd-text">
@@ -31,7 +31,7 @@
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8319pi_108722_8319">Company</label>
 			</div>
-			<div id="error_for_108722_8319pi_108722_8319" style="display:none"></div>
+			<!-- <div id="error_for_108722_8319pi_108722_8319" style="display:none"></div> -->
 
 
 			<div class="group form-field email pd-text">
@@ -40,7 +40,7 @@
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8321pi_108722_8321">Email</label>
 			</div>
-			<div id="error_for_108722_8321pi_108722_8321" style="display:none"></div>
+			<!-- <div id="error_for_108722_8321pi_108722_8321" style="display:none"></div> -->
 
 			<div class="group form-field  job_title pd-text">
 				<input type="text" name="108722_8323pi_108722_8323" id="108722_8323pi_108722_8323" class="text" maxlength="128" onchange="" required />
@@ -48,40 +48,27 @@
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8323pi_108722_8323">Job Title</label>
 			</div>
-			<div id="error_for_108722_8323pi_108722_8323" style="display:none"></div>
+			<!-- <div id="error_for_108722_8323pi_108722_8323" style="display:none"></div> -->
 
-			<div class="group form-field industry pd-select">
-				<select name="108722_8325pi_108722_8325" id="108722_8325pi_108722_8325" class="ro-select" onchange="" required />
+			<div class="group form-field selectfield industry pd-select">
+				<select name="108722_8325pi_108722_8325" id="108722_8325pi_108722_8325" class="select" onchange="" required/>
 					<option value="" selected="selected"></option>
-					<option value="23105">Auto</option>
-					<option value="23129">Distribution</option>
-					<option value="23107">Education</option>
-					<option value="23109">Electronics</option>
-					<option value="23111">Entertainment</option>
-					<option value="23113">Financial Services</option>
-					<option value="23115">Healthcare</option>
-					<option value="23117">Hotel, Air, etc.</option>
-					<option value="23119">Real Estate</option>
-					<option value="23121">Retail</option>
-					<option value="23123">Service</option>
-					<option value="23125">Specialty &amp; Gift</option>
+					<option value="42897">B2B E-Commerce</option>
+					<option value="42899">Consumer Services</option>
+					<option value="42901">Real Estate</option>
+					<option value="42903">Education</option>
+					<option value="42905">Financial Services</option>
+					<option value="42907">Healthcare</option>
+					<option value="42909">CPG</option>
+					<option value="42911">Retail/E-Commerce</option>
+					<option value="42913">Dining &amp; Entertainment</option>
+					<option value="42915">Travel</option>
 				</select>
 
 				<label class="field-label" for="108722_8325pi_108722_8325">Industry</label>
 			</div>
-			<div id="error_for_108722_8325pi_108722_8325" style="display:none"></div>
 
-			<div class="group form-field employees pd-select">
-				<select name="108722_8327pi_108722_8327" id="108722_8327pi_108722_8327" class="ro-select" onchange="">
-					<option value="" selected="selected"></option>
-					<option value="23131">1-249</option>
-					<option value="23133">250-499</option>
-					<option value="23135">500+</option>
-				</select>
-
-				<label class="field-label" for="108722_8327pi_108722_8327">Employees</label>
-			</div>
-			<div id="error_for_108722_8327pi_108722_8327" style="display:none"></div>
+			<!-- <div id="error_for_108722_8325pi_108722_8325" style="display:none"></div> -->
 
 			<div class="group form-field Invitation_Code pd-text">
 				<input type="text" name="108722_8329pi_108722_8329" id="108722_8329pi_108722_8329" class="text" maxlength="65535" onchange="" required />
@@ -89,7 +76,7 @@
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8329pi_108722_8329">Invitation Code</label>
 			</div>
-			<div id="error_for_108722_8329pi_108722_8329" style="display:none"></div>
+			<!-- <div id="error_for_108722_8329pi_108722_8329" style="display:none"></div> -->
 
 			<div class="visuallyhidden" >
 				<input type="text" name="pi_extra_field" id="pi_extra_field" />
@@ -100,7 +87,7 @@
 			<input name="_utf8" type="hidden" value="&#9731;" />
 
 			<div class="submit b-margin-3">
-				<input type="button" class="btn btn--support" accesskey="s" value="Submit" />
+				<input type="submit" class="btn btn--support" accesskey="s" value="Submit" />
 			</div>
 
 			<p>Click <strong><a href="mailto:jennifer.pino@riseinteractive.com?Subject=Request%20Invite%20Code" target="_blank">here</a> </strong>to request a invitation code.</p>

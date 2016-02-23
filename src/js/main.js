@@ -65,54 +65,8 @@ jQuery(document).ready(function($){
 
 
 
-	$('.ro-select').filter(function() {
-		var $this = $(this),
-			$sel = $('<ul>', {
-				'class': 'ro-select-list'
-			}),
-			$wr = $('<div>', {
-				'class': 'ro-select-wrapper'
-			}),
-			$inp = $('<input>', {
-				type: 'hidden',
-				name: $this.attr('name'),
-				'class': 'ro-select-input'
-			}),
-			$text = $('<div>', {
-				'class': 'ro-select-text ro-select-text-empty',
-				text: $this.attr('placeholder')
-			});
-		$opts = $this.children('option');
-
-		$text.click(function() {
-			$sel.show();
-		});
-
-		$opts.filter(function() {
-			var $opt = $(this);
-			$sel.append($('<li>', {
-				text: $opt.text(),
-				'class': 'ro-select-item'
-			})).data('value', $opt.attr('value'));
-		});
-		$sel.on('click', 'li', function() {
-			$text.text($(this).text()).removeClass('ro-select-text-empty');
-			$(this).parent().hide().children('li').removeClass('ro-select-item-active');
-			$(this).addClass('ro-select-item-active');
-			$inp.val($this.data('value'));
-		});
-		$wr.append($text);
-		$wr.append($('<i>', {
-			'class': 'fa fa-caret-down ro-select-caret'
-		}));
-		$this.after($wr.append($inp, $sel));
-		$this.remove();
-	});
-
-
-
 	//  --------------------------------
-	// TESTIMONALS Forms
+	// TESTIMONALS
 	// ---------------------------------
 	//create the slider
 	$('.cd-testimonials-wrapper').flexslider({
@@ -203,56 +157,52 @@ jQuery(document).ready(function($){
 	google.maps.event.addDomListener(window, 'load', initialize);
 
 
+	//  --------------------------------
+	// Pardot Forms
+	// ---------------------------------
+
+	piAId = '109722';
+	piCId = '2508';
+
+	pi = !window.pi ? {} : window.pi ;
+
+	pi.tracker.pi_form = !pi.tracker ? {} : true ;
+
+	(function() {
+		function async_load() {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+			var c = document.getElementsByTagName('script')[0];
+			c.parentNode.insertBefore(s, c);
+		}
+		if (window.attachEvent) {
+			window.attachEvent('onload', async_load);
+		} else {
+			window.addEventListener('load', async_load, false);
+		}
+	})();
+
+	var anchors = document.getElementsByTagName("a");
+	for (var i = 0; i < anchors.length; i++) {
+		var anchor = anchors[i];
+		if (anchor.getAttribute("href") && !anchor.getAttribute("target")) {
+			anchor.target = "_top";
+		}
+	}
+
+
 });
-
-//  --------------------------------
-// Pardot Forms
-// ---------------------------------
-
-piAId = '109722';
-piCId = '2508';
-
-pi = !window.pi ? {} : window.pi ;
-
-if (!pi.tracker) {
-pi.tracker = {};
-}
-
-pi.tracker.pi_form = true;
-
-(function() {
-function async_load() {
-	var s = document.createElement('script');
-	s.type = 'text/javascript';
-	s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-	var c = document.getElementsByTagName('script')[0];
-	c.parentNode.insertBefore(s, c);
-}
-if (window.attachEvent) {
-	window.attachEvent('onload', async_load);
-} else {
-	window.addEventListener('load', async_load, false);
-}
-})();
-
-var anchors = document.getElementsByTagName("a");
-for (var i = 0; i < anchors.length; i++) {
-var anchor = anchors[i];
-if (anchor.getAttribute("href") && !anchor.getAttribute("target")) {
-	anchor.target = "_top";
-}
-}
-
-// (function() {
-// 	pardot.$(document).ready(function() {
-// 		(function() {
-// 			var $ = window.pardot.$;
-// 			window.pardot.FormDependencyMap = [];
-//
-// 			$('.form-field-master input, .form-field-master select').each(function(index, input) {
-// 				$(input).on('change', window.piAjax.checkForDependentField);
-// 				window.piAjax.checkForDependentField.call(input);
-// 			});
-// 		})();
-// 	});
-// })();
+	// (function() {
+	// 	pardot.$(document).ready(function() {
+	// 		(function() {
+	// 			var $ = window.pardot.$;
+	// 			window.pardot.FormDependencyMap = [];
+	//
+	// 			$('.form-field-master input, .form-field-master select').each(function(index, input) {
+	// 				$(input).on('change', window.piAjax.checkForDependentField);
+	// 				window.piAjax.checkForDependentField.call(input);
+	// 			});
+	// 		})();
+	// 	});
+	// })();

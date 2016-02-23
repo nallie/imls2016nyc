@@ -8,6 +8,38 @@
 .cbp_tmtitle
 	color $color-2
 
+.cbp_expand
+.cbp_expand p
+	font-size 1.125rem
+	line-height 1.6
+	text-align left
+	margin-bottom 1rem
+
+	> ul
+		text-align left
+		list-style disc inside none
+
+		li
+			margin 0 0 1rem
+			font-family Campton-Light, sans-serif
+
+
+.cbp_tmicon-speaker:before
+	content "\e8cd"
+
+.cbp_tmicon-food:before
+	content "\eb44"
+
+.cbp_tmicon-qa:before
+	content "\e8af"
+
+.cbp_tmicon-break:before
+	content "\e16b"
+
+.cbp_tmicon-pizza:before
+	content "\e552"
+
+
 // Date and Time information
 .cbp_tmtimeline
 	> li
@@ -19,13 +51,13 @@
 
 				&:last-child
 					font-size 1.5em
-					color $color-5
+					color $color-6
 					@media $desktop-up
 						font-size 2.5em
 
 		&:nth-child(odd)
 			.cbp_tmtime span:last-child
-				color $color-5
+				color $color-6
 
 			.cbp_tmlabel
 				background $color-1
