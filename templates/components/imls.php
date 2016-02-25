@@ -32,12 +32,6 @@
 						<img src="img/boa.png" />
 					</li>
 					<li>
-						<img src="img/dalecarnegietraining-trans.png" />
-					</li>
-					<li>
-						<img src="img/discover.png" />
-					</li>
-					<li>
 						<img src="img/etrade.png" />
 					</li>
 					<li>

@@ -26,7 +26,7 @@
 
 
 			<div class="group form-field company pd-text">
-				<input type="text" name="108722_8319pi_108722_8319" id="108722_8319pi_108722_8319" class="text" maxlength="255" onchange="" required />
+				<input type="text" name="108722_8319pi_108722_8319" id="108722_8319pi_108722_8319" class="text" maxlength="255" onchange="" required>
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8319pi_108722_8319">Company</label>
@@ -35,7 +35,7 @@
 
 
 			<div class="group form-field email pd-text">
-				<input type="text" name="108722_8321pi_108722_8321" id="108722_8321pi_108722_8321" class="text" maxlength="255" onchange="piAjax.auditEmailField(this, 108722, 8321, 8178727);" required />
+				<input type="text" name="108722_8321pi_108722_8321" id="108722_8321pi_108722_8321" class="text" maxlength="255" onchange="piAjax.auditEmailField(this, 108722, 8321, 8178727);" required>
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8321pi_108722_8321">Email</label>
@@ -43,7 +43,7 @@
 			<!-- <div id="error_for_108722_8321pi_108722_8321" style="display:none"></div> -->
 
 			<div class="group form-field  job_title pd-text">
-				<input type="text" name="108722_8323pi_108722_8323" id="108722_8323pi_108722_8323" class="text" maxlength="128" onchange="" required />
+				<input type="text" name="108722_8323pi_108722_8323" id="108722_8323pi_108722_8323" class="text" maxlength="128" onchange="" required>
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8323pi_108722_8323">Job Title</label>
@@ -51,8 +51,8 @@
 			<!-- <div id="error_for_108722_8323pi_108722_8323" style="display:none"></div> -->
 
 			<div class="group form-field selectfield industry pd-select">
-				<select name="108722_8325pi_108722_8325" id="108722_8325pi_108722_8325" class="select" onchange="" required/>
-					<option value="" selected="selected"></option>
+				<select name="108722_8325pi_108722_8325" id="108722_8325pi_108722_8325" class="select" onchange="" required>
+					<option value="" disabled selected>Choose your option</option>
 					<option value="42897">B2B E-Commerce</option>
 					<option value="42899">Consumer Services</option>
 					<option value="42901">Real Estate</option>
@@ -71,7 +71,7 @@
 			<!-- <div id="error_for_108722_8325pi_108722_8325" style="display:none"></div> -->
 
 			<div class="group form-field Invitation_Code pd-text">
-				<input type="text" name="108722_8329pi_108722_8329" id="108722_8329pi_108722_8329" class="text" maxlength="65535" onchange="" required />
+				<input type="text" name="108722_8329pi_108722_8329" id="108722_8329pi_108722_8329" class="text" maxlength="65535" onchange="" required>
 				<span class="highlight"></span>
 				<span class="bar"></span>
 				<label class="field-label" for="108722_8329pi_108722_8329">Invitation Code</label>
