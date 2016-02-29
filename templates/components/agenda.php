@@ -57,7 +57,7 @@
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Building Trust Through Advocacy</h3>
+					<h3 class="cbp_tmtitle">Building Trust Through Customer-Led Experiences</h3>
 					<p class="cbp_expand">Today’s customers have higher expectations than ever before and providing relevant experiences is critical to building their trust and loyalty. But as the complexity of their journey unfolds, how do you provide the personalized touch they expect during every interaction? This session will explore how leading brands are integrating customer insights into their digital strategies and delivering on that relevancy customers demand. Through analysis, best practices, and practical examples, you’ll learn how customer experience can help your brand gain a competitive edge and will walk away with ideas for integrating CX with your existing marketing efforts.</p>
 				</div>
 			</li>
