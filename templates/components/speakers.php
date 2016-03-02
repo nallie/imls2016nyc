@@ -11,12 +11,21 @@
 					</div>
 				</div>
 			</li>
-			<li>
+			<!-- <li>
 				<div class="ch-item ch-img-brad">
 					<div class="ch-info">
 						<h3>Brad Messinger</h3>
 						<p>SVP, Marketing<a href="https://www.linkedin.com/in/brad-messinger-15281833" target="_blank">Linkedin</a></p>
 						<span class="img__company">Rise Interactive</span>
+					</div>
+				</div>
+			</li> -->
+			<li>
+				<div class="ch-item ch-img-heidi">
+					<div class="ch-info">
+						<h3>Heidi Munc</h3>
+						<p>AVP, User Experience<a href="https://www.linkedin.com/in/heidi-munc-88470" target="_blank">Linkedin</a></p>
+						<span class="img__company">Nationwide</span>
 					</div>
 				</div>
 			</li>

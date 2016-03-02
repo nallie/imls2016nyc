@@ -90,7 +90,7 @@
 				<input type="submit" class="btn btn--support" accesskey="s" value="Submit" />
 			</div>
 
-			<p>Click <strong><a href="mailto:jennifer.pino@riseinteractive.com?Subject=Request%20Invite%20Code" target="_blank">here</a> </strong>to request a invitation code.</p>
+			<p>Click <strong><a href="mailto:jennifer.pino@riseinteractive.com?Subject=Request%20Invite%20Code" target="_blank">here</a> </strong>to request an invitation code.</p>
 
 			<input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="" />
 		</form>
