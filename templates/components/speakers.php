@@ -47,6 +47,42 @@
 					</div>
 				</div>
 			</li>
+			<li>
+				<div class="ch-item ch-img-rachel">
+					<div class="ch-info">
+						<h3>Rachel Gerds</h3>
+						<p>VP of Digital Content, North America <a href="https://www.linkedin.com/in/rachel-gerds-5a8b0ab" target="_blank">Linkedin</a></p>
+						<span class="img__company">BMO Financial Group</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-greg-lazarus">
+					<div class="ch-info">
+						<h3>Greg Lazarus</h3>
+						<p>Director of Corporate Sales <a href="https://www.linkedin.com/in/greglazarus" target="_blank">Linkedin</a></p>
+						<span class="img__company">Optimizely</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-isaac">
+					<div class="ch-info">
+						<h3>Isaac Gerber</h3>
+						<p>Senior Manager of Analytics & Optimization <a href="https://www.linkedin.com/in/isaac-gerber-4327b74" target="_blank">Linkedin</a></p>
+						<span class="img__company">Wiley</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-dan">
+					<div class="ch-info">
+						<h3>Dan Mooney</h3>
+						<p>Director of Digital Analytics <a href="https://www.linkedin.com/in/danmooney" target="_blank">Linkedin</a></p>
+						<span class="img__company">Wiley</span>
+					</div>
+				</div>
+			</li>
 		</ul>
 	</div>
 </section>
