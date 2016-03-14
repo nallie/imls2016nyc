@@ -14,8 +14,8 @@
 		<div class="banner">
 
 			<img src="img/leadership-banner.png" alt="">
-			<h3 class='t-margin-3'>March 30, 2016 – New York, NY</h3>
-			<h3 class="font-blue"><a href="#js-register">Register Now</a></h3>
+			<h3 class='t-margin-1'>March 30, 2016 – New York, NY</h3>
+			<h3 class="register_button"><a class= "btn--register" href="#js-register">Register Now</a></h3>
 		</div>
 		<a href="#js-topic" class="cd-scroll-down"><i class="fa fa-angle-double-down fa-3x"></i></a>
 	</div>
