@@ -52,8 +52,8 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 11:30-12:15">
-					<span>A.M.</span> <span>11:30</span>
+				<time class='cbp_tmtime' datetime="2016-03-30 11:45-12:15">
+					<span>A.M.</span> <span>11:45</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -73,7 +73,7 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 1:15-2:30">
+				<time class='cbp_tmtime' datetime="2016-03-30 1:15-2:45">
 					<span>P.M. </span> <span>1:15</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
@@ -86,8 +86,8 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 2:30-2:45">
-					<span>P.M.</span> <span>2:30</span>
+				<time class='cbp_tmtime' datetime="2016-03-30 2:45-3:00">
+					<span>P.M.</span> <span>2:45</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-break"></div>
 				<div class="cbp_tmlabel">
@@ -96,8 +96,8 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 2:45-3:30">
-					<span>P.M.</span> <span>2:45</span>
+				<time class='cbp_tmtime' datetime="2016-03-30 3:00-3:30">
+					<span>P.M.</span> <span>3:00</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -115,10 +115,8 @@
 				<div class="cbp_tmicon cbp_tmicon-qa"></div>
 				<div class="cbp_tmlabel">
 					<h3 class="cbp_tmtitle">1-on-1 time with an expert</h3>
-					<h4><i>(sign-up details coming soon)</i></h4>
 					<p class="cbp_expand">
-						Speakers and experts from throughout the day will be available to meet with attendees to discuss CX topics as they relate their own organizations and challenges. Information on signing up for one-on-one time will be provided following event registration.
-					</p>
+Speakers and experts from throughout the day will be available to meet with attendees to discuss CX topics as they relate to their own organizations and challenges. Registration for one-on-one time will be open at the event starting at 8 AM.					</p>
 				</div>
 			</li>
 
