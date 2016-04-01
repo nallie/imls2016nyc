@@ -1,0 +1,96 @@
+// BUTTON STYLES ------------------------
+
+.btn
+	font-family Campton-Book, 'Montserrat', sans-serif
+	display inline-block
+	text-align center
+	vertical-align middle
+	touch-action manipulation
+	cursor pointer
+	white-space no-wrap
+	line-height 1.4
+	border-radius 0
+	font-size 1.1rem
+	padding .8rem
+	text-transform uppercase
+	text-decoration none
+	letter-spacing 1px
+	position relative
+	transition all .3s
+	height 50px
+
+.btn-link:focus
+	outline 0 !important
+
+.btn--primary
+	border 2px solid $primaryBtnColor
+	background-color $primaryBtnColor
+	color white
+
+	&:hover,
+	&:active,
+	&:focus
+		border 2px solid $primaryBtnColor
+		background-color white
+		color $primaryBtnColor
+
+.btn--secondary
+	border 2px solid $secondaryBtnColor
+	background-color $secondaryBtnColor
+	color white
+
+	&:hover,
+	&:active,
+	&:focus
+		border 2px solid $secondaryBtnColor
+		background-color white
+		color $secondaryBtnColor
+
+.btn--tertiary
+	border 2px solid $tertiaryBtnColor
+	background-color $tertiaryBtnColor
+	color white
+
+	&:hover,
+	&:active,
+	&:focus
+		border 2px solid $secondaryBtnColor
+		background-color white
+		color $secondaryBtnColor
+
+.btn--support
+	border 2px solid $color-1
+	color $color-1
+	background-color $color-3
+
+	&:hover
+	&:active
+	&:focus
+		background-color $color-1
+		color $color-3
+
+.btn--inactive
+	border 2px solid $inactiveBtnColor
+	color $inactiveBtnColor
+
+	&:hover,
+	&:active,
+	&:focus
+		background-color $inactiveBtnColor
+		color white
+
+.btn--register
+	padding 10px
+	font-size 20px
+	font-weight 700
+	text-transform uppercase
+	background-color $color-1
+	color $color-2
+	border-color $color-1
+
+	&:hover
+	&:active
+	&:focus
+		background-color transparent
+		border 2px solid $primaryBtnColor
+		color $color-1

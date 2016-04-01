@@ -1,0 +1,66 @@
+#map-canvas
+	height 100%
+	margin 0px
+	padding 0px
+
+.map__location
+	position absolute
+	top 6rem
+	left 0
+	right 0
+	margin 0 auto
+	max-width 320px
+	padding 1em 2%
+	background white
+	z-index 40
+	border-radius 5px
+	font-family Campton-Light
+	font-size 1rem
+	text-align left
+
+	span
+		display block
+		color $md-grey
+
+		&:first-of-type
+			color $color-1
+			font-size 1.2rem
+			font-family Campton-Bold
+			padding-bottom .1rem
+
+		&:nth-of-type(2)
+			font-size 1rem
+			line-height 1.6
+
+// #cd-zoom-in, #cd-zoom-out {
+// 	height: 32px;
+// 	width: 32px;
+// 	cursor: pointer;
+// 	margin-left: 10px;
+// 	background-color: rgba($color-2, .9);
+// 	background-repeat: no-repeat;
+// 	background-size: 32px 64px;
+// 	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg');
+//
+// 	.no-touch &:hover {
+// 		background-color: rgba($color-2, 1);
+// 	}
+//
+// 	@include MQ(M) {
+// 		margin-left: 50px;
+// 	}
+// }
+//
+// #cd-zoom-in {
+// 	background-position: 50% 0;
+// 	margin-top: 10px;
+// 	margin-bottom: 1px;
+//
+// 	@include MQ(M) {
+// 		margin-top: 50px;
+// 	}
+// }
+//
+// #cd-zoom-out {
+// 	background-position: 50% -32px;
+// }
