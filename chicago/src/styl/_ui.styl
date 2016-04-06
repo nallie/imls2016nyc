@@ -107,6 +107,8 @@ a
 	display table
 	width 100%
 	height 100vh
+	@media $desktop-up
+		padding-right 90px
 	// background $color-5
 
 	& > div
@@ -175,7 +177,7 @@ a
 		color $lt-grey
 		border-bottom 1px solid $color-6
 
-	a.active
+	a.anchor.active
 		color $color-3
 
 	&.open
@@ -245,11 +247,11 @@ a
 			&:hover
 				color $lt-grey
 
-		a.active
+		a.anchor.active
 			color $color-3
 
-		a::before
-		a::after
+		a.anchor::before
+		a.anchor::after
 			// used to create the filled circle and the background icon
 			content ''
 			position absolute
@@ -258,7 +260,7 @@ a
 			backface-visibility hidden
 			transform translateZ(0)
 
-		a::before
+		a.anchor::before
 			// Filled circle
 			top 0
 			height 32px
@@ -269,7 +271,7 @@ a
 			background-color 0.2s
 			transition transform 0.4s
 
-		a::after
+		a.anchor::after
 			// ICONS
 			opacity 0
 			top 8px
@@ -345,6 +347,13 @@ a
 						transform translateX(-50%) scale(1) rotate(.02deg)
 
 			&:nth-of-type(8)
+				a
+					&::after
+						background-position 0px 32px
+						transform translateX(-50%) translateY(-13em) scale(0.01)
+					&::before
+						transform translateX(-50%) scale(1) rotate(.02deg)
+			&:nth-of-type(9)
 				a
 					&::after
 						background-position 0px 32px

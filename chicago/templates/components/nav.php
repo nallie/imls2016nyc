@@ -1,34 +1,37 @@
 <nav class="cd-vertical-nav">
 	<ul>
-		<li><a href="#js-home" class="active">
+		<li class="btn--register-nav"><a href="#js-register">
+			<span class="label">Register</span></a>
+		</li>
+		<li><a href="#js-home" class="anchor active">
 			<span class="label">Home</span></a>
 		</li>
 
-		<li><a href="#js-topic">
+		<li><a href="#js-topic" class="anchor">
 			<span class="label">Topic</span></a>
 		</li>
 
-		<li><a href="#js-register">
+		<li><a href="#js-register" class="anchor">
 			<span class="label">Register</span></a>
 		</li>
 
-		<li><a href="#js-agenda">
+		<li><a href="#js-agenda" class="anchor">
 			<span class="label">Agenda</span></a>
 		</li>
 
-		<li><a href="#js-speakers">
+		<li><a href="#js-speakers" class="anchor">
 			<span class="label">Speakers</span></a>
 		</li>
 
-		<li><a href="#js-map">
+		<li><a href="#js-map" class="anchor">
 			<span class="label">Location</span></a>
 		</li>
 
-		<li><a href="#js-why">
+		<li><a href="#js-why" class="anchor">
 			<span class="label">Why attend?</span></a>
 		</li>
 
-		<li><a href="#js-imls">
+		<li><a href="#js-imls" class="anchor">
 			<span class="label">About IMLS</span></a>
 		</li>
 	</ul>

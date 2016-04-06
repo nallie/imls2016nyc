@@ -43,28 +43,32 @@
 // Date and Time information
 .cbp_tmtimeline
 	> li
+		.cbp_tmlabel
+			background lightgray
+			
 		.cbp_tmtime
 			span
 				&:first-child
 					font-size 0.9em
 					color $color-4
-					margin-right 15px
+					margin-top 11%
+					float right
 
 				&:last-child
 					font-size 1.5em
-					color $color-5
+					color lightgray
 					@media $desktop-up
 						font-size 2.5em
 
 		&:nth-child(odd)
 			.cbp_tmtime span:last-child
-				color $color-5
+				color lightgray
 
 			.cbp_tmlabel
-				background $color-1
+				background gray
 
 			.cbp_tmlabel:after
-				border-bottom-color $color-1
+				border-bottom-color gray
 				@media $tablet-up
 					border-bottom-color transparent
-					border-right-color $color-1
+					border-right-color gray

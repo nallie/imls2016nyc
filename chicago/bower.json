@@ -13,6 +13,7 @@
     "bower_components"
   ],
   "dependencies": {
+    "bootstrap": "3.3.6",
     "modernizr": "2.8.2",
     "jquery": "~2.1.1",
     "utilphp": "https://github.com/brandonwamboldt/utilphp.git#~1.1.0",

@@ -26,7 +26,7 @@
 </script>
 
 
-<title>IMLS 2016 NYC</title>
+<title>IMLS 2016 CHICAGO</title>
 </head>
 
 <body>
