@@ -1,6 +1,6 @@
 <nav class="cd-vertical-nav">
 	<ul>
-		<li class="btn--register-nav"><a href="#js-register">
+		<li class="btn--register-nav hidden-xs"><a href="#js-register">
 			<span class="label">Register</span></a>
 		</li>
 		<li><a href="#js-home" class="anchor active">

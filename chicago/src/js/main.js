@@ -86,16 +86,19 @@ jQuery(document).ready(function($){
 	//open the testimonials modal page
 	$('.cd-see-all').on('click', function(){
 		$('.cd-testimonials-all').addClass('is-visible');
+		document.body.style.overflow = "hidden";
 	});
 
 	//close the testimonials modal page
 	$('.cd-testimonials-all .close-btn').on('click', function(){
 		$('.cd-testimonials-all').removeClass('is-visible');
+		document.body.style.overflow = "visible";
 	});
 	$(document).keyup(function(event){
 		//check if user has pressed 'Esc'
 		if(event.which=='27'){
 			$('.cd-testimonials-all').removeClass('is-visible');
+			document.body.style.overflow = "visible";
 		}
 	});
 

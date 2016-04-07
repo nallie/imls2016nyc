@@ -6,11 +6,18 @@
 #js-map
 	background-color #ffffff
 
+.row-margins
+	margin-left -10px
+	margin-right -10px
+
 .map__location
 	background white
 	font-family Campton-Light
 	font-size 2rem
 	text-align left
+
+	img
+		width 100%
 
 	span
 		display block
@@ -25,6 +32,15 @@
 		&:nth-of-type(2)
 			font-size 2rem
 			line-height 1.6
+
+.map__information
+	padding-top 30%
+	@media $tablet-up
+		padding-top 7.5%
+
+.cd-section>div.map__wrapper
+	vertical-align initial
+	display block
 
 // #cd-zoom-in, #cd-zoom-out {
 // 	height: 32px;

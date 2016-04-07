@@ -4,7 +4,7 @@
 		<ul class='cbp_tmtimeline b-margin-5'>
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 8:00-9:00">
-					<span>A.M.</span> <span>8:00</span>
+					<span>8:00</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-food"></div>
 				<div class="cbp_tmlabel">
@@ -14,7 +14,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 9:15-10:15">
-					<span>A.M.</span> <span>9:15</span>
+					<span>9:15</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -24,7 +24,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
-					<span>A.M.</span> <span>10:15</span>
+					<span>10:15</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-break"></div>
 				<div class="cbp_tmlabel">
@@ -34,7 +34,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:30-11:00">
-					<span>A.M.</span> <span>10:30</span>
+					<span>10:30</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -53,7 +53,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 11:45-12:15">
-					<span>A.M.</span> <span>11:45</span>
+					<span>11:45</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -64,7 +64,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 12:15-1:15">
-					<span> P.M. </span> <span>12:15</span>
+					<span>12:15</span><span>P.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-pizza"></div>
 				<div class="cbp_tmlabel">
@@ -74,7 +74,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 1:15-2:45">
-					<span>P.M. </span> <span>1:15</span>
+					<span>1:15</span><span>P.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -87,7 +87,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 2:45-3:00">
-					<span>P.M.</span> <span>2:45</span>
+					<span>2:45</span><span>P.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-break"></div>
 				<div class="cbp_tmlabel">
@@ -97,7 +97,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 3:00-3:30">
-					<span>P.M.</span> <span>3:00</span>
+					<span>3:00</span><span>P.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -110,7 +110,7 @@
 
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 3:30-4:00">
-					<span>P.M.</span> <span>3:30</span>
+					<span>3:30</span><span>P.M.</span> 
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-qa"></div>
 				<div class="cbp_tmlabel">

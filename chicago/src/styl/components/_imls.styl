@@ -1,8 +1,14 @@
 #js-imls
-	background-image url("../../img/AboutIMLS.png")
-	background-repeat no-repeat
-	background-size contain
+	@media $desktop-up
+		background-image url("../../img/AboutIMLS.png")
+		background-repeat no-repeat
+		background-size contain
 
 .slides
 	li
 		display inline-block
+
+.text__block-small
+	font-size 1.5rem
+	@media $tablet-up
+		font-size 1.7rem

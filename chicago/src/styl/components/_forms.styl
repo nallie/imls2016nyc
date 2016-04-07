@@ -1,7 +1,8 @@
 #js-register
-	background-image url("../../img/Register.png")
-	background-repeat no-repeat
-	background-size contain
+	@media $desktop-up
+		background-image url("../../img/Register.png")
+		background-repeat no-repeat
+		background-size contain
 
 
 // ---------------------------
@@ -28,6 +29,8 @@ input
 	width 300px
 	border none
 	border-bottom 1px solid $color-1
+	@media $desktop-up
+		width 100%
 
 	&:focus
 		outline none
@@ -185,8 +188,10 @@ select:focus
 	border-width 0 0 1px 0
 	border-color $color-1
 	border-radius 0
-	width 100%
+	width 300px
 	min-height 40px
+	@media $desktop-up
+		width 100%
 
 	&::before
 		font-family 'Material-Icons'
@@ -202,6 +207,7 @@ select:focus
 .selectfield
 	font-family Campton,'Verdana',sans-serif
 	position relative
+	text-align left
 
 	&:after
 		position absolute
@@ -215,3 +221,7 @@ select:focus
 		top 10px
 		color $color-1
 		font-size 1.7rem
+
+.submit
+	input
+		width 300px
