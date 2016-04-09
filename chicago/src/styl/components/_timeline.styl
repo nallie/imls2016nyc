@@ -1,3 +1,17 @@
+#js-agenda
+	& .section__title
+		color $color-1
+
+.accordion-title
+	h3
+		display inline-block
+
+	i
+		margin-top 31px
+		float right
+		color $color-1
+
+
 .cbp_tmtimeline
 	width 90%
 	margin 0 auto
@@ -6,14 +20,15 @@
 		margin-left 5%
 
 .cbp_tmtitle
-	color $color-2
+	color $color-1
+	padding 1em 0
 
 .cbp_expand
 .cbp_expand p
 	font-size 1.125rem
 	line-height 1.6
 	text-align left
-	margin-bottom 1rem
+	padding-bottom 2rem
 
 	> ul
 		text-align left
@@ -22,6 +37,10 @@
 		li
 			margin 0 0 1rem
 			font-family Campton-Light, sans-serif
+
+	&.no-extra-padding
+		padding-bottom 1rem
+
 
 
 .cbp_tmicon-speaker:before
@@ -45,6 +64,7 @@
 	> li
 		text-align left
 		.cbp_tmlabel
+			padding 0 2em
 			background lightgray
 			&:after
 				border-bottom-color lightgray
@@ -56,6 +76,7 @@
 			@media $desktop-up
 				text-align right
 				padding-right 110px
+
 			span
 				display inline
 				&:first-child
@@ -66,7 +87,7 @@
 
 				&:last-child
 					font-size 0.9em
-					color $color-4
+					color $color-5
 					margin-top 11%
 					@media $desktop-up
 						float right
@@ -74,7 +95,7 @@
 		&:nth-child(odd)
 			.cbp_tmtime
 				span:last-child
-					color $color-4
+					color $color-5
 
 			.cbp_tmlabel
 				background gray

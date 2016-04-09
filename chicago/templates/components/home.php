@@ -14,7 +14,7 @@
 		</div>
 		<div class="banner">
 
-			<img src="img/leadership-banner.png" alt="">
+			<img src="img/IMLS_logo_2.png" alt="">
 			<h3 class='subheader t-margin-1'>IMLS | CX</h3>
 			<h3 class='t-margin-1'>May 11, 2016 – Chicago, IL</h3>
 			<h3 class="register_button"><a class= "btn--register" href="#js-register">Register Now</a></h3>

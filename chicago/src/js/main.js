@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
 
 	$(window).on('scroll', checkScroll);
 
-	//smooth scroll to the selected section
+//smooth scroll to the selected section
 	verticalNavigation.on('click', 'a', function(event){
         event.preventDefault();
         smoothScroll($(this.hash));
@@ -142,12 +142,12 @@ jQuery(document).ready(function($){
 
 	function initialize() {
 
-		var season = new google.maps.LatLng(40.768882,-73.982598);
+		var season = new google.maps.LatLng(41.8896195,-87.6222803);
 
 		var isDraggable = !('ontouchstart' in document.documentElement);
 
 		var mapOptions = {
-			zoom: 15,
+			zoom: 17,
 			center: season,
 			draggable: isDraggable,
 			scrollwheel: false,

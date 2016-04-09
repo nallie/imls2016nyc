@@ -1,5 +1,5 @@
 <section id="js-map" class="cd-section">
-	<div class="content-wrapper map__wrapper">
+	<div class="content-wrapper">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="map__location">
@@ -13,11 +13,21 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div id="map-canvas"></div>
+			<div class="col-md-6 no-padding">
+				<a href="https://www.google.com/maps/place/University+of+Chicago:+Gleacher+Center/@41.8896195,-87.6222803,17z/data=!4m2!3m1!1s0x0:0x2de5428703b98337">
+					<div id="map-canvas"></div>
+				</a>
 			</div>
 		</div>
-		<!-- <div id="cd-zoom-in"></div>
-		<div id="cd-zoom-out"></div> -->
 	</div>
 </section>
+<!-- <section id="js-map" class="cd-section">
+	<div class="content-wrapper">
+		<div id="map-canvas"></div>
+		<div class="map__location">
+			<span>10 on the Park</span>
+			<span>60 Columbus Circle, 10th Floor</span>
+			<span>New York, NY 10019</span>
+		</div>
+	</div>
+</section> -->
