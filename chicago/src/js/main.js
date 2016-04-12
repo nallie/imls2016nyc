@@ -6,6 +6,8 @@ jQuery(document).ready(function($){
 		navigationItems = verticalNavigation.find('a'),
 		navTrigger = $('.cd-nav-trigger'),
 		scrollArrow = $('.cd-scroll-down');
+		accordionHeaders = $('.accordion-title');
+		registerMobile = $('.cd-nav-trigger-register');
 
 	function updateSections() {
 		var halfWindowHeight = $(window).height()/2,
@@ -61,8 +63,13 @@ jQuery(document).ready(function($){
     navTrigger.on('click', function(event){
     	event.preventDefault();
     	verticalNavigation.toggleClass('open');
+		registerMobile.toggleClass('register-open');
     });
 
+	accordionHeaders.on('click', function(event){
+		event.preventDefault();
+		$(this).find('.fa-angle-double-down, .fa-angle-double-up').toggleClass("fa-angle-double-down fa-angle-double-up");
+	});
 
 
 	//  --------------------------------

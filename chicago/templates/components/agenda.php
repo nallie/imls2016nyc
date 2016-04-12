@@ -4,38 +4,8 @@
 		<div class="panel-group" id="accordion">
 		<ul class='cbp_tmtimeline b-margin-5'>
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 8:00-9:00">
-					<span>8:00</span><span>A.M.</span>
-				</time>
-				<div class="cbp_tmicon cbp_tmicon-food"></div>
-				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Registration &amp; Breakfast</h3>
-				</div>
-			</li>
-
-			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 9:15-10:15">
-					<span>9:15</span><span>A.M.</span>
-				</time>
-				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
-				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Opening Keynote</h3>
-				</div>
-			</li>
-
-			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
-					<span>10:15</span><span>A.M.</span>
-				</time>
-				<div class="cbp_tmicon cbp_tmicon-break"></div>
-				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Break</h3>
-				</div>
-			</li>
-
-			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:30-11:00">
-					<span>10:30</span><span>A.M.</span>
+					<span>9:15</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -70,8 +40,19 @@
 			</li>
 
 			<li>
+				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
+					<span>10:30</span><span>A.M.</span>
+				</time>
+				<div class="cbp_tmicon cbp_tmicon-break"></div>
+				<div class="cbp_tmlabel">
+					<h3 class="cbp_tmtitle">Break</h3>
+				</div>
+			</li>
+
+
+			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 11:45-12:15">
-					<span>11:45</span><span>A.M.</span>
+					<span>10:45</span><span>A.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
@@ -98,12 +79,40 @@
 			</li>
 
 			<li>
+				<time class='cbp_tmtime' datetime="2016-03-30 3:00-3:30">
+					<span>11:15</span><span>A.M.</span>
+				</time>
+				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
+				<div class="cbp_tmlabel">
+					<div class="panel panel-default">
+				    	<div class="panel-heading">
+							<div class="accordion-title" data-toggle="collapse" data-parent="#accordion" href="#testing-panel">
+								<div class="row">
+									<div class="col-xs-10">
+							    		<h3 class="cbp_tmtitle accordion-toggle">
+							        			Creating a Culture of Testing
+							      		</h3>
+									</div>
+									<i class="fa fa-angle-double-down fa-2x"></i>
+								</div>
+							</div>
+				    	</div>
+				    	<div id="testing-panel" class="panel-collapse collapse">
+				    		<div class="cbp_expand">
+								<p>This discussion will dive deep into how to create a culture of testing that transcends the entire organization.  Learn about proven methodologies and processes based on a rigorous, analytical approach to conversion rate optimization. Find out how leading brands are harnessing the power of data and insights to deliver optimal user experiences and create a big impact on the bottom line.
+							</div>
+				    	</div>
+					</div>
+				</div>
+			</li>
+
+			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 12:15-1:15">
 					<span>12:15</span><span>P.M.</span>
 				</time>
 				<div class="cbp_tmicon cbp_tmicon-pizza"></div>
 				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Lunch and Networking</h3>
+					<h3 class="cbp_tmtitle">Lunch</h3>
 				</div>
 			</li>
 
@@ -146,30 +155,12 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 3:00-3:30">
+				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
 					<span>3:00</span><span>P.M.</span>
 				</time>
-				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
+				<div class="cbp_tmicon cbp_tmicon-break"></div>
 				<div class="cbp_tmlabel">
-					<div class="panel panel-default">
-				    	<div class="panel-heading">
-							<div class="accordion-title" data-toggle="collapse" data-parent="#accordion" href="#testing-panel">
-								<div class="row">
-									<div class="col-xs-10">
-							    		<h3 class="cbp_tmtitle accordion-toggle">
-							        			Creating a Culture of Testing
-							      		</h3>
-									</div>
-									<i class="fa fa-angle-double-down fa-2x"></i>
-								</div>
-							</div>
-				    	</div>
-				    	<div id="testing-panel" class="panel-collapse collapse">
-				    		<div class="cbp_expand">
-								<p>This discussion will dive deep into how to create a culture of testing that transcends the entire organization.  Learn about proven methodologies and processes based on a rigorous, analytical approach to conversion rate optimization. Find out how leading brands are harnessing the power of data and insights to deliver optimal user experiences and create a big impact on the bottom line.
-							</div>
-				    	</div>
-					</div>
+					<h3 class="cbp_tmtitle">Closing Keynote</h3>
 				</div>
 			</li>
 

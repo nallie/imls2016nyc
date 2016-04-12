@@ -29,6 +29,7 @@
 	line-height 1.6
 	text-align left
 	padding-bottom 2rem
+	color $color-1
 
 	> ul
 		text-align left
@@ -61,7 +62,14 @@
 
 // Date and Time information
 .cbp_tmtimeline
+	&::before
+		background $color-5
+
 	> li
+		.cbp_tmicon
+			-webkit-box-shadow 0 0 0 8px $color-5
+			box-shadow 0 0 0 8px $color-5
+
 		text-align left
 		.cbp_tmlabel
 			padding 0 2em

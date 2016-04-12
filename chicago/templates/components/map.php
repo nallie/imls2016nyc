@@ -7,27 +7,17 @@
 						<img src="img/gleacher.jpg" />
 					</div>
 					<div class="row map__information">
-						<span>Gleacher Center</span>
+						<span>University of Chicago Gleacher Center</span>
 						<span>450 North Cityfront Plaza Drive</span>
 						<span>Chicago, IL 60611</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 no-padding">
-				<a href="https://www.google.com/maps/place/University+of+Chicago:+Gleacher+Center/@41.8896195,-87.6222803,17z/data=!4m2!3m1!1s0x0:0x2de5428703b98337">
+				<a href="https://www.google.com/maps/place/University+of+Chicago:+Gleacher+Center/@41.8896195,-87.6222803,17z/data=!4m2!3m1!1s0x0:0x2de5428703b98337" target="_blank">
 					<div id="map-canvas"></div>
 				</a>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- <section id="js-map" class="cd-section">
-	<div class="content-wrapper">
-		<div id="map-canvas"></div>
-		<div class="map__location">
-			<span>10 on the Park</span>
-			<span>60 Columbus Circle, 10th Floor</span>
-			<span>New York, NY 10019</span>
-		</div>
-	</div>
-</section> -->

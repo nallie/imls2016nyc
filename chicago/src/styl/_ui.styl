@@ -99,6 +99,25 @@ a
 	background-color $color-3
 	border-radius .25rem
 
+.cd-nav-trigger-register
+	display block
+	position fixed
+	z-index 50
+	bottom 30px
+	right 20%
+	border-radius 0.25rem
+	background white
+	//reset button style
+	cursor pointer
+	appearance none
+	border none
+	outline none
+	height 44px
+	width 108px
+	padding 12px 10px
+
+	@media $tablet-up
+		display none
 
 //  --------------------------------
 // Sections styles
@@ -153,6 +172,9 @@ a
 // Vertical Nav styles
 // ---------------------------------
 //Mobile vertical nav links
+.register-open
+	display none
+
 .cd-vertical-nav
 	position fixed
 	z-index 6
@@ -432,7 +454,8 @@ a
 // NO JS STYLES
 // ---------------------------------
 .no-js
-	.cd-nav-trigger
+	.cd-nav-trigger,
+	.cd-nav-trigger-register
 		display none
 
 	.cd-vertical-nav

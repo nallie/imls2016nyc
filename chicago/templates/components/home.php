@@ -9,7 +9,7 @@
 				<a href="https://twitter.com/RiseInteractive" target="_blank"><i class="fa fa-twitter-square fa-fw"></i></a>
 				<a href="https://www.linkedin.com/company/rise-interactive_2" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i></a>
 				<a href="mailto:jennifer.pino@riseinteractive.com"><i class="fa fa-envelope fa-fw"></i></a>
-				<a href="www.riseinteractive.com/blog"><i class="fa fa-envelope fa-fw"></i></a>
+				<a href="www.riseinteractive.com/blog"><i class="fa fa-rss fa-fw"></i></a>
 			</div>
 		</div>
 		<div class="banner">

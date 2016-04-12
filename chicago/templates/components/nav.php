@@ -38,3 +38,4 @@
 </nav><!-- .cd-vertical-nav -->
 
 <button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
+<a href="#js-register"><span class="cd-nav-trigger-register">Register</span></a>

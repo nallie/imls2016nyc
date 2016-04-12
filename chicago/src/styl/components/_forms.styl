@@ -26,9 +26,11 @@ input
 	font-size 18px
 	padding 10px 10px 10px 5px
 	display block
-	width 300px
+	width 265px
 	border none
 	border-bottom 1px solid $color-1
+	@media $tablet-up
+		width 300px
 	@media $desktop-up
 		width 100%
 
@@ -57,7 +59,7 @@ select ~ label
 .bar
 	position relative
 	display block
-	width 300px
+	width 100%
 	&:before
 		left 50%
 	&:after
@@ -189,8 +191,10 @@ select:focus
 	border-width 0 0 1px 0
 	border-color $color-1
 	border-radius 0
-	width 300px
+	width 265px
 	min-height 40px
+	@media $tablet-up
+		width 300px
 	@media $desktop-up
 		width 100%
 
@@ -225,4 +229,6 @@ select:focus
 
 .submit
 	input
-		width 300px
+		width 265px
+		@media $desktop-up
+			width 300px
