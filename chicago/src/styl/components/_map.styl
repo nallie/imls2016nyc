@@ -23,15 +23,20 @@
 		display block
 		color $md-grey
 
-		&:first-of-type
+		&:nth-of-type(1)
+			font-size 2rem
+			line-height 1.6
+
+	a
+		span
 			color $color-1
 			font-size 2.2rem
 			font-family Campton-Bold
 			padding-bottom .1rem
 
-		&:nth-of-type(2)
-			font-size 2rem
-			line-height 1.6
+		&:hover
+			color $color-1
+
 
 .map__information
 	padding-top 10%

@@ -56,16 +56,21 @@
 							<div class="group form-field selectfield industry pd-select">
 								<select name="108722_8325pi_108722_8325" id="108722_8325pi_108722_8325" class="select" onchange="" required>
 									<option value="" disabled selected hidden>Choose your option</option>
-									<option value="42897">B2B E-Commerce</option>
-									<option value="42899">Consumer Services</option>
-									<option value="42901">Real Estate</option>
-									<option value="42903">Education</option>
-									<option value="42905">Financial Services</option>
-									<option value="42907">Healthcare</option>
-									<option value="42909">CPG</option>
-									<option value="42911">Retail/E-Commerce</option>
-									<option value="42913">Dining &amp; Entertainment</option>
-									<option value="42915">Travel</option>
+									<option value="76708">B2B Services</option>
+									<option value="76710">B2B E-Commerce</option>
+									<option value="76712">Consumer Services</option>
+									<option value="76714">Real Estate</option>
+									<option value="76716">Education</option>
+									<option value="76718">Financial Services</option>
+									<option value="76720">Healthcare</option>
+									<option value="76734">Non Profit</option>
+									<option value="76736">CPG/OEM</option>
+									<option value="76738">Fashion</option>
+									<option value="76740">Retail/E-Commerce</option>
+									<option value="76742">Dining/Entertainment</option>
+									<option value="76744">Travel</option>
+									<option value="76746">Apps/Gaming</option>
+									<option value="76748">Media</option>
 								</select>
 
 								<label class="field-label" for="108722_8325pi_108722_8325">Industry</label>

@@ -7,7 +7,9 @@
 						<img src="img/gleacher.jpg" />
 					</div>
 					<div class="row map__information">
-						<span>University of Chicago Gleacher Center</span>
+						<a href="https://www.google.com/maps/place/University+of+Chicago:+Gleacher+Center/@41.8896195,-87.6222803,17z/data=!4m2!3m1!1s0x0:0x2de5428703b98337" target="_blank">
+							<span>University of Chicago Gleacher Center</span>
+						</a>
 						<span>450 North Cityfront Plaza Drive</span>
 						<span>Chicago, IL 60611</span>
 					</div>

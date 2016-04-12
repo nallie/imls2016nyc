@@ -33,7 +33,7 @@
 				<div class="ch-item ch-img-vidya">
 				</div>
 				<div class="ch-info">
-					<h3><a href="https://www.linkedin.com/in/vidyart" target="_blank">Vidya Ramen-Tangella</a></h3>
+					<h3><a href="https://www.linkedin.com/in/vidyart" target="_blank">Vidya Raman-Tangella</a></h3>
 					<p>Head of UnitedHealthcare’s Innovation Center of Excellence</p>
 					<span class="img__company">UnitedHealthcare</span>
 				</div>

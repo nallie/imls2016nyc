@@ -4,6 +4,15 @@
 		<div class="panel-group" id="accordion">
 		<ul class='cbp_tmtimeline b-margin-5'>
 			<li>
+				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
+					<span>8:00</span><span>A.M.</span>
+				</time>
+				<div class="cbp_tmicon cbp_tmicon-break"></div>
+				<div class="cbp_tmlabel">
+					<h3 class="cbp_tmtitle">Registration &amp; Breakfast</h3>
+				</div>
+			</li>
+			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 10:30-11:00">
 					<span>9:15</span><span>A.M.</span>
 				</time>
