@@ -3,7 +3,7 @@
 <!-- <script src="src/js/scripts.concat.js"></script> -->
 <script src="dist/js/scripts.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 <!-- <footer>
 	<div class="device"></div>
