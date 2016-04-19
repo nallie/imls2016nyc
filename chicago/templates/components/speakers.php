@@ -30,6 +30,33 @@
 				</div>
 			</li>
 			<li>
+				<div class="ch-item ch-img-heidi">
+				</div>
+				<div class="ch-info">
+					<h3><a href="https://www.linkedin.com/in/heidi-munc-88470" target="_blank">Heidi Munc</a></h3>
+					<p>AVP of User Experience</p>
+					<span class="img__company">Nationwide</span>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-mike">
+				</div>
+				<div class="ch-info">
+					<h3><a href="https://www.linkedin.com/in/mikerkelly" target="_blank">Mike Kelly</a></h3>
+					<p>CEO</p>
+					<span class="img__company">Ora Interactive</span>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-dan">
+				</div>
+				<div class="ch-info">
+					<h3><a href="https://www.linkedin.com/in/danieleparsons" target="_blank">Dan Parsons</a></h3>
+					<p>Co-Founder</p>
+					<span class="img__company">DRYV</span>
+				</div>
+			</li>
+			<li>
 				<div class="ch-item ch-img-vidya">
 				</div>
 				<div class="ch-info">
