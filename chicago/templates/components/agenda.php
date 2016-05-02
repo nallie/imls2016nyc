@@ -164,15 +164,32 @@
 			</li>
 
 			<li>
-				<time class='cbp_tmtime' datetime="2016-03-30 10:15-10:30">
+				<time class='cbp_tmtime' datetime="2016-03-30 3:00-3:30">
 					<span>3:00</span><span>P.M.</span>
 				</time>
-				<div class="cbp_tmicon cbp_tmicon-break"></div>
+				<div class="cbp_tmicon cbp_tmicon-speaker"></div>
 				<div class="cbp_tmlabel">
-					<h3 class="cbp_tmtitle">Closing Keynote</h3>
+					<div class="panel panel-default">
+				    	<div class="panel-heading">
+							<div class="accordion-title" data-toggle="collapse" data-parent="#accordion" href="#startup-panel">
+								<div class="row">
+									<div class="col-xs-10">
+							    		<h3 class="cbp_tmtitle accordion-toggle">
+							        			Think Like A Startup: How to Move at the Speed of the Customer
+							      		</h3>
+									</div>
+									<i class="fa fa-angle-double-down fa-2x"></i>
+								</div>
+							</div>
+				    	</div>
+				    	<div id="startup-panel" class="panel-collapse collapse">
+				    		<div class="cbp_expand">
+								<p>Brands seeking to delight customers must operate with unprecedented speed and agility. In this intimate fireside chat, you’ll learn how one brand developed a customer-first environment that leverages mobile to capture, engage and build their audience. With actionable insights, this discussion will reveal how any brand can develop a CX culture of change.</p>
+							</div>
+				    	</div>
+					</div>
 				</div>
 			</li>
-
 			<li>
 				<time class='cbp_tmtime' datetime="2016-03-30 3:30-4:00">
 					<span>3:30</span><span>P.M.</span>

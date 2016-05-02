@@ -65,6 +65,15 @@
 					<span class="img__company">UnitedHealthcare</span>
 				</div>
 			</li>
+			<li>
+				<div class="ch-item ch-img-john">
+				</div>
+				<div class="ch-info">
+					<h3><a href="https://www.linkedin.com/in/johnmtucker" target="_blank">John Tucker</a></h3>
+					<p>Co-Founder and VP of Customer Experience</p>
+					<span class="img__company">Trunk Club</span>
+				</div>
+			</li>
 		</ul>
 	</div>
 </section>
