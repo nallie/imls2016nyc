@@ -87,7 +87,7 @@
 				<div class="ch-item ch-img-anthony-long">
 				</div>
 				<div class="ch-info">
-					<h3><a href="hhttps://www.linkedin.com/in/tonylong" target="_blank">Anthony Long</a></h3>
+					<h3><a href="https://www.linkedin.com/in/tonylong" target="_blank">Anthony Long</a></h3>
 					<p>Global E-Commerce Strategist</p>
 					<span class="img__company">Kimberly-Clark</span>
 				</div>
