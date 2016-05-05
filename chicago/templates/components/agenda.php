@@ -71,7 +71,7 @@
 								<div class="row">
 									<div class="col-xs-10">
 							    		<h3 class="cbp_tmtitle">
-							        			Building Trust Through Customer-Led Experiences
+							        			Developing a Data Model for Customer-Led Marketing
 							      		</h3>
 									</div>
 									<i class="fa fa-angle-double-down fa-2x"></i>
@@ -99,7 +99,7 @@
 								<div class="row">
 									<div class="col-xs-10">
 							    		<h3 class="cbp_tmtitle accordion-toggle">
-							        			Creating a Culture of Testing
+							        			Creating a Culture of Innovation
 							      		</h3>
 									</div>
 									<i class="fa fa-angle-double-down fa-2x"></i>
@@ -108,7 +108,7 @@
 				    	</div>
 				    	<div id="testing-panel" class="panel-collapse collapse">
 				    		<div class="cbp_expand">
-								<p>This discussion will dive deep into how to create a culture of testing that transcends the entire organization.  Learn about proven methodologies and processes based on a rigorous, analytical approach to conversion rate optimization. Find out how leading brands are harnessing the power of data and insights to deliver optimal user experiences and create a big impact on the bottom line.
+								<p>This keynote and Q&amp;A session will examine how to incorporate an outside-in perspective into your organization and drive innovative, scalable solutions that make an impact on your end users. Learn how human-centered design complements market research to get your brand thinking differently and using customer experience to create a competitive advantage.</p>
 							</div>
 				    	</div>
 					</div>

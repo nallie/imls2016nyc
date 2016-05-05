@@ -74,6 +74,24 @@
 					<span class="img__company">Trunk Club</span>
 				</div>
 			</li>
+			<li>
+				<div class="ch-item ch-img-marleta">
+				</div>
+				<div class="ch-info">
+					<h3><a href="https://www.linkedin.com/in/marleta-ross-73856a" target="_blank">Marleta Ross</a></h3>
+					<p>VP Customer Relationship Strategy</p>
+					<span class="img__company">American Express</span>
+				</div>
+			</li>
+			<li>
+				<div class="ch-item ch-img-anthony-long">
+				</div>
+				<div class="ch-info">
+					<h3><a href="hhttps://www.linkedin.com/in/tonylong" target="_blank">Anthony Long</a></h3>
+					<p>Global E-Commerce Strategist</p>
+					<span class="img__company">Kimberly-Clark</span>
+				</div>
+			</li>
 		</ul>
 	</div>
 </section>
